@@ -1,0 +1,21 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Generic project styles */
+    font-size: 0.8125rem;
+    color: #212121;
+    background: #7caf5e;
+    font-family: helvetica, sans-serif;
+}
+
