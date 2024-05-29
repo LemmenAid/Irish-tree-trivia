@@ -1,16 +1,26 @@
 const questions = [{
         question: "How much of Ireland is covered with native forest?",
-        answers: [
-            {text: "2%", correct: true},
-            {text: "11%", correct: false},
-            {text: "27%", correct: false},
-            {text: "33%", correct: false},
+        answers: [{
+                text: "2%",
+                correct: true
+            },
+            {
+                text: "11%",
+                correct: false
+            },
+            {
+                text: "27%",
+                correct: false
+            },
+            {
+                text: "33%",
+                correct: false
+            },
         ]
     },
     {
         question: "How much of Ireland was once upon a time covered with forest?",
-        answers: [
-            {
+        answers: [{
                 text: "50%",
                 correct: false
             },
@@ -30,8 +40,7 @@ const questions = [{
     },
     {
         question: "What does the Latin word 'arboretum' mean?",
-        answers: [
-            {
+        answers: [{
                 text: "Group of trees near water",
                 correct: false
             },
@@ -51,8 +60,7 @@ const questions = [{
     },
     {
         question: "Which of the following trees does NOT produce nuts?",
-        answers: [
-            {
+        answers: [{
                 text: "Hazel",
                 correct: false
             },
@@ -72,8 +80,7 @@ const questions = [{
     },
     {
         question: "What tree has earned the nickname 'tree of the dead'?",
-        answers: [
-            {
+        answers: [{
                 text: "Hawthorn (Crataegus monogyna)",
                 correct: false
             },
@@ -93,8 +100,7 @@ const questions = [{
     },
     {
         question: "What is the national tree of Ireland?",
-        answers: [
-            {
+        answers: [{
                 text: "Sessile Oak (Quercus petraea)",
                 correct: true
             },
@@ -114,8 +120,7 @@ const questions = [{
     },
     {
         question: "The tallest tree in Ireland is a Douglas fir at the Powerscourt Estate in Co. Wicklow, but how tall is this tree?",
-        answers: [
-            {
+        answers: [{
                 text: "31 meter",
                 correct: false
             },
@@ -135,8 +140,7 @@ const questions = [{
     },
     {
         question: "Which of the following trees is NOT a native Irish tree?",
-        answers: [
-            {
+        answers: [{
                 text: "Scots Pine (Pinus sylvestris)",
                 correct: false
             },
@@ -156,8 +160,7 @@ const questions = [{
     },
     {
         question: "Most timber can float in water, but which of the following will sink?",
-        answers: [
-            {
+        answers: [{
                 text: "Aspen (Populus tremula)",
                 correct: false
             },
@@ -177,8 +180,7 @@ const questions = [{
     },
     {
         question: "Ireland has 3 native conifers, which one below is not one of them?",
-        answers: [
-            {
+        answers: [{
                 text: "Juniper (Juniperus)",
                 correct: false
             },
@@ -199,7 +201,7 @@ const questions = [{
 ];
 
 const questionElement = document.getElementById("question");
-const answerButton = document.getElementById("answer-buttons");
+const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
@@ -209,11 +211,12 @@ function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
-    
+
     showQuestion();
 }
 
 function showQuestion() {
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -223,8 +226,15 @@ function showQuestion() {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
-        answerButton.appendChild(button);
+        answerButtons.appendChild(button);
     });
 }
 
-startQuiz(); 
+function resetState() {
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
+startQuiz();
