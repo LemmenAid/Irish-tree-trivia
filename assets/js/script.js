@@ -258,12 +258,13 @@ function selectAnswer(e) {
     const isCorrect = selectedBtn.dataset.correct === "true";
     if (isCorrect) {
         selectedBtn.classList.add("correct");
+        score++;
     } else {
         selectedBtn.classList.add("incorrect");
     }
     /* Shows correct answer after answering and disables answer options */
     Array.from(answerButtons.children).forEach(button => {
-        if(button.dataset.correct === "true") {
+        if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
         button.disabled = true;
@@ -271,5 +272,36 @@ function selectAnswer(e) {
     /* Show the next button after answering */
     nextButton.style.display = "block";
 }
+
+/**
+ * Shows score after all questions are answered
+ */
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play again";
+    nextButton.style.display = "block";
+}
+
+/**
+ * Shows next question, unless all questions are done, then show score
+ */
+function handleNextButton() {
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+
+nextButton.addEventListener("click", () => {
+    if (currentQuestionIndex < questions.length) {
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
 
 startQuiz();
