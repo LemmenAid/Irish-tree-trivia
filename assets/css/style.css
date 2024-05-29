@@ -59,10 +59,15 @@ padding-bottom: 30px;
     cursor: pointer;
     transition: all 0.3s;
 }
-
-.btn:hover {
-    background: #7caf5e;
+/* hover style for answer buttons - off for disabled after answering*/
+.btn:hover:not([disabled]) {
+    background: #373737;
     color: #fff;
+}
+
+/* Change cursor to red for after answering a question */
+.btn:disabled {
+    cursor: no-drop;
 }
 
 #next-btn {

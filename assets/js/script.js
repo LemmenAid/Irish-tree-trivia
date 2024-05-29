@@ -261,6 +261,15 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
+    /* Shows correct answer after answering and disables answer options */
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true") {
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    /* Show the next button after answering */
+    nextButton.style.display = "block";
 }
 
 startQuiz();
