@@ -19,3 +19,62 @@ body {
     font-family: helvetica, sans-serif;
 }
 
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.app h1 {
+font-size: 1.3rem;
+color: #212121;
+font-weight: 600;
+border-bottom: 1px solid #333;
+padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 1.1rem;
+    color: #286206;
+    font-weight: 500;
+}
+
+.btn {
+    background: #fff;
+    color: #212121;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #212121;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #7caf5e;
+    color: #fff;
+}
+
+#next-btn {
+    background: #286206;
+    color: #fff;
+    font-weight: 500;
+    width: 120px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
