@@ -78,3 +78,11 @@ padding-bottom: 30px;
     display: none;
 }
 
+.correct {
+    background: #7caf5e;
+}
+
+.incorrect {
+    background: #de835c;
+}
+
