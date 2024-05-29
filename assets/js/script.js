@@ -1,22 +1,10 @@
 const questions = [{
         question: "How much of Ireland is covered with native forest?",
         answers: [
-            {
-                text: "2%",
-                correct: true
-            },
-            {
-                text: "11%",
-                correct: false
-            },
-            {
-                text: "27%",
-                correct: false
-            },
-            {
-                text: "33%",
-                correct: false
-            },
+            {text: "2%", correct: true},
+            {text: "11%", correct: false},
+            {text: "27%", correct: false},
+            {text: "33%", correct: false},
         ]
     },
     {
@@ -211,7 +199,7 @@ const questions = [{
 ];
 
 const questionElement = document.getElementById("question");
-const answerButton = document.getElementById("answer-button");
+const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
