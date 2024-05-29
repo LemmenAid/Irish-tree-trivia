@@ -207,6 +207,9 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
+/**
+ * Starts the quiz
+ */
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -215,6 +218,9 @@ function startQuiz() {
     showQuestion();
 }
 
+/**
+ * Shows the question with answer options to the player
+ */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -230,6 +236,9 @@ function showQuestion() {
     });
 }
 
+/** 
+ * Removes the html answer options buttons 
+ */ 
 function resetState() {
     nextButton.style.display = "none";
     while(answerButtons.firstChild){
