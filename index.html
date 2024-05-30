@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
     <meta name="description"
-        content="Irish tree trivia quiz. A fun quiz to test Irish tree trivia, also provides some information about trees in Ireland.">
+        content=" An interactive online quiz about Irish trees. Test your Irish tree trivia and learn something on the way.">
     <meta name="keywords" content="tree, trees, forest, native, quiz, test, trivia, multiple choice">
-
     <!-- Title -->
     <title>Irish Tree Trivia</title>
     <!-- Favicon -->
@@ -20,8 +19,16 @@
 </head>
 
 <body>
+    <!-- Header includes icon and title which serve as links to homepage. ARIA label included for image icon for accessibility -->
+  <header>
+    <a href="index.html" aria-label="Link to the homepage"><img src="assets/images/Logo_Leaf-min.png" alt="tree logo"></a>
+    <a href="index.html">
+      <h1>Irish Tree Trivia</h1>
+    </a>
+  </header>
+
     <div class="app">
-        <h1>Irish Tree Trivia</h1>
+        <h1>Test Your Knowledge..</h1>
         <div class="quiz">
             <img id="question-image" src="" alt="Question Image">
             <h2 id="question">question goes here</h2>
