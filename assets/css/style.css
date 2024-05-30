@@ -18,8 +18,8 @@ body {
   background: #748337;
   font-family: helvetica, sans-serif;
 
-  background: url("../images/background_hp.jpg");
-  background-position: center;
+  /* background: url("../images/background_hp.jpg");
+  background-position: center; */
 }
 
 /* Header */
@@ -29,7 +29,7 @@ header {
   align-items: center;
   justify-content: center;
   min-height: 20vh;
-  background: #fff;
+  background: #ebece9;
   border-radius: 0 0 2px 2px;
   box-shadow: 0 1px 1px #3a3a3a;
 }
@@ -58,6 +58,11 @@ header img {
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+.home-page h1 {
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .button {
@@ -158,11 +163,11 @@ header img {
 }
 
 .correct {
-  background: #7caf5e;
+  background: #a9c265;
 }
 
 .incorrect {
-  background: #de835c;
+  background: #dc993a;
 }
 
 #question-image {
@@ -184,8 +189,8 @@ header img {
   padding: 2.5rem;
   padding-top: 4rem;
   font-size: 0.7rem;
-  background: url("../images/Hero_image_2.jpg") no-repeat center center/cover;
-  background-color: #424e16;
+  /* background: url("../images/Hero_image_2.jpg") no-repeat center center/cover; */
+  background-color: #ebece9;
 }
 
 /* Style footer logo */
