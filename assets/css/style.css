@@ -45,7 +45,7 @@ header {
     border-radius: 3px;
   }
 
-
+/* Styles for quiz area */
 .app {
     background: #fff;
     width: 90%;
@@ -132,3 +132,77 @@ header {
     margin: 0 auto 1rem;
     border-radius: 3px;
 }
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #212121;
+    padding: 2.5rem;
+    padding-top: 4rem;
+    font-size: 0.7rem;
+    background: url("../images/Hero_image_2.jpg") no-repeat center center/cover;
+    background-color: #424e16;
+  }
+  
+  /* Style footer logo */
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    color:#fff3ea;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-logo span {
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .footer-logo a {
+    text-decoration: none;
+    color: currentColor;
+    font-size: 1rem;
+  }
+  
+  .footer-logo a:hover {
+    color: #a6e029;
+  }
+  
+  /* Style Footer social media icons */
+  .social-media {
+    flex: 1;
+  }
+  
+  #social-networks {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 1.5rem;
+    color: #fff3ea;
+    margin-right: 15px;
+  }
+  
+  .social-media li {
+    display: inline-flex;
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+  
+  .social-media a {
+    color: #fff3ea;
+  }
+  
+  .social-media a:hover {
+    color: #a6e029;
+  }
