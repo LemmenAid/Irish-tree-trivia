@@ -15,34 +15,34 @@ body {
     /* Generic project styles */
     font-size: 0.8125rem;
     color: #212121;
-    background: #7caf5e;
+    background: #748337;
     font-family: helvetica, sans-serif;
 }
 
 /* Header */
 
 header {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-    min-height: 10vh;
+    min-height: 20vh;
     background: #fff;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1.2px;
-    font-size: 1.2rem;
-    color: #212121;
+    border-radius: 0  0 2px 2px;
+    box-shadow: 0 1px 1px #3a3a3a;
   }
   
   header a {
     color: inherit;
     text-decoration: none;
   }
+
+  header a:hover {
+    color: #212121;
+  }
   
   header img {
-    height: 4rem;
-    margin-right: 2px;
-    width: 4rem;
+    height: 10rem;
+    border-radius: 3px;
   }
 
 
@@ -50,8 +50,8 @@ header {
     background: #fff;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 5px;
+    margin: 100px auto;
+    border-radius: 3px;
     padding: 30px;
 }
 
@@ -69,8 +69,12 @@ header {
 
 .quiz h2 {
     font-size: 1.1rem;
-    color: #286206;
+    letter-spacing: 0.6px;
+    color: #242c07;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -80,7 +84,7 @@ header {
     width: 100%;
     border: 1px solid #212121;
     padding: 10px;
-    margin: 10px 0;
+    margin: 7px 0;
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
@@ -99,9 +103,11 @@ header {
 }
 
 #next-btn {
-    background: #286206;
+    background: #62840a;
     color: #fff;
     font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.8px;
     width: 120px;
     border: 0;
     padding: 10px;
@@ -124,4 +130,5 @@ header {
     height: auto;
     display: block;
     margin: 0 auto 1rem;
+    border-radius: 3px;
 }
