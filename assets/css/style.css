@@ -29,11 +29,11 @@ body {
 }
 
 .app h1 {
-font-size: 1.3rem;
-color: #212121;
-font-weight: 600;
-border-bottom: 1px solid #333;
-padding-bottom: 30px;
+    font-size: 1.3rem;
+    color: #212121;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
 }
 
 .quiz {
@@ -59,6 +59,7 @@ padding-bottom: 30px;
     cursor: pointer;
     transition: all 0.3s;
 }
+
 /* hover style for answer buttons - off for disabled after answering*/
 .btn:hover:not([disabled]) {
     background: #373737;
@@ -91,3 +92,9 @@ padding-bottom: 30px;
     background: #de835c;
 }
 
+#question-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}

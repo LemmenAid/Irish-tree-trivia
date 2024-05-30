@@ -1,4 +1,5 @@
 const questions = [{
+        image: "assets/images/Hero_image_2.jpg",
         question: "How much of Ireland is covered with native forest?",
         answers: [{
                 text: "2%",
@@ -227,6 +228,9 @@ function showQuestion() {
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
+    // Set the image source
+    const questionImage = document.getElementById("question-image");
+    questionImage.src = currentQuestion.image;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -288,7 +292,7 @@ function showScore() {
  */
 function handleNextButton() {
     currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < questions.length) {
         showQuestion();
     } else {
         showScore();
