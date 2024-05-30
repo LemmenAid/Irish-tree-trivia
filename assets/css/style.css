@@ -17,6 +17,9 @@ body {
   color: #212121;
   background: #748337;
   font-family: helvetica, sans-serif;
+
+  background: url("../images/background_hp.jpg");
+  background-position: center;
 }
 
 /* Header */
@@ -46,6 +49,9 @@ header img {
 }
 
 /* Home Page */
+.background-hp {
+
+}
 
 .home-page {
   background-color: #fff;
@@ -75,6 +81,7 @@ header img {
 .intro-text {
   letter-spacing: 1px;
   padding: 25px 15px;
+  align-self: flex-start;
 }
 
 
