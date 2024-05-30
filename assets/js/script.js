@@ -20,6 +20,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q2_image-min.jpg",
         question: "How much of Ireland was once upon a time covered with forest?",
         answers: [{
                 text: "50%",
@@ -40,6 +41,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q3_image-min.jpg",
         question: "What does the Latin word 'arboretum' mean?",
         answers: [{
                 text: "Group of trees near water",
@@ -60,6 +62,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q4_image-min.jpg",
         question: "Which of the following trees does NOT produce nuts?",
         answers: [{
                 text: "Hazel",
@@ -80,6 +83,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q5_image-min.jpg",
         question: "What tree has earned the nickname 'tree of the dead'?",
         answers: [{
                 text: "Hawthorn (Crataegus monogyna)",
@@ -100,6 +104,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q6_image-min.jpg",
         question: "What is the national tree of Ireland?",
         answers: [{
                 text: "Sessile Oak (Quercus petraea)",
@@ -120,6 +125,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q7_image-min.jpg",
         question: "The tallest tree in Ireland is a Douglas fir at the Powerscourt Estate in Co. Wicklow, but how tall is this tree?",
         answers: [{
                 text: "31 meter",
@@ -140,6 +146,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q8_image-min.jpg",
         question: "Which of the following trees is NOT a native Irish tree?",
         answers: [{
                 text: "Scots Pine (Pinus sylvestris)",
@@ -160,6 +167,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q9_image-min.jpg",
         question: "Most timber can float in water, but which of the following will sink?",
         answers: [{
                 text: "Aspen (Populus tremula)",
@@ -180,6 +188,7 @@ const questions = [{
         ]
     },
     {
+        image: "assets/images/q10_image-min.jpg",
         question: "Ireland has 3 native conifers, which one below is not one of them?",
         answers: [{
                 text: "Juniper (Juniperus)",
