@@ -1,5 +1,5 @@
 const questions = [{
-        image: "assets/images/Hero_image_2.jpg",
+        image: "assets/images/q1_image-min.jpg",
         question: "How much of Ireland is covered with native forest?",
         answers: [{
                 text: "2%",
