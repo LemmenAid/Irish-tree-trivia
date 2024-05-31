@@ -1,5 +1,5 @@
 const questions = [{
-        image: "assets/images/q1_image-min.jpg",
+    image: "assets/images/q3_1.jpg",
         question: "Trom",
         answers: [{
                 text: "Alder (Alnus glutinosa)",
@@ -20,7 +20,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q2_image-min.jpg",
+        image: "assets/images/q3_2.jpg",
         question: "Dair ghaelach",
         answers: [{
                 text: "Sessile Oak (Quercus petraea)",
@@ -41,7 +41,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q3_image-min.jpg",
+        image: "assets/images/q3_3.jpg",
         question: "Iúr",
         answers: [{
                 text: "Juniper (Juniperus)",
@@ -62,7 +62,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q4_image-min.jpg",
+        image: "assets/images/q3_4.jpg",
         question: "Cuileann",
         answers: [{
                 text: "Downy Birch (Betula pubescens",
@@ -83,7 +83,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q5_image-min.jpg",
+        image: "assets/images/q3_5.jpg",
         question: "Leamhán gallda",
         answers: [{
                 text: "Hawthorn (Crataegus monogyna)",
@@ -104,7 +104,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q6_image-min.jpg",
+        image: "assets/images/q3_6.jpg",
         question: "Fearnóg",
         answers: [{
                 text: "Dogwood (Cornus sanguinea)",
@@ -125,7 +125,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q7_image-min.jpg",
+        image: "assets/images/q3_7.jpg",
         question: "Sceach gheal",
         answers: [{
                 text: "Aspen (Populus tremula)",
@@ -146,7 +146,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q8_image-min.jpg",
+        image: "assets/images/q3_8.jpg",
         question: "	Saileach liath",
         answers: [{
                 text: "Grey Willow (Salix cinerea)",
@@ -167,7 +167,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q9_image-min.jpg",
+        image: "assets/images/q3_9.jpg",
         question: "	Feá",
         answers: [{
                 text: "Beech (Fagus sylvatica)",
@@ -188,7 +188,7 @@ const questions = [{
         ]
     },
     {
-        image: "assets/images/q10_image-min.jpg",
+        image: "assets/images/q3_10.jpg",
         question: "	Coll",
         answers: [{
                 text: "Crab Apple (Malus sylvestris)",
