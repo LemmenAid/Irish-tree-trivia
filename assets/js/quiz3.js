@@ -1,92 +1,50 @@
 const questions = [{
         image: "assets/images/q1_image-min.jpg",
-        question: "How much of Ireland is covered with native forest?",
+        question: "Trom",
         answers: [{
-                text: "2%",
+                text: "Alder (Alnus glutinosa)",
+                correct: false
+            },
+            {
+                text: "Whitebeam (Sorbus hibernica)",
+                correct: false
+            },
+            {
+                text: "Elder (Sambucus nigra)",
                 correct: true
             },
             {
-                text: "11%",
-                correct: false
-            },
-            {
-                text: "27%",
-                correct: false
-            },
-            {
-                text: "33%",
+                text: "Guelder Rose (Viburnum opulus)",
                 correct: false
             },
         ]
     },
     {
         image: "assets/images/q2_image-min.jpg",
-        question: "How much of Ireland was once upon a time covered with forest?",
+        question: "Dair ghaelach",
         answers: [{
-                text: "50%",
-                correct: false
-            },
-            {
-                text: "60%",
-                correct: false
-            },
-            {
-                text: "70%",
-                correct: false
-            },
-            {
-                text: "80%",
+                text: "Sessile Oak (Quercus petraea)",
                 correct: true
+            },
+            {
+                text: "Silver Birch (Betula pendula)",
+                correct: false
+            },
+            {
+                text: "Rowan / Mountain Ash (Sorbus aucuparia)",
+                correct: false
+            },
+            {
+                text: "Yew (Taxus baccata)",
+                correct: false
             },
         ]
     },
     {
         image: "assets/images/q3_image-min.jpg",
-        question: "What does the Latin word 'arboretum' mean?",
+        question: "Iúr",
         answers: [{
-                text: "Group of trees near water",
-                correct: false
-            },
-            {
-                text: "Ancient field",
-                correct: false
-            },
-            {
-                text: "Woodland glade",
-                correct: false
-            },
-            {
-                text: "Place with trees",
-                correct: true
-            },
-        ]
-    },
-    {
-        image: "assets/images/q4_image-min.jpg",
-        question: "Which of the following trees does NOT produce nuts?",
-        answers: [{
-                text: "Hazel",
-                correct: false
-            },
-            {
-                text: "Oak",
-                correct: false
-            },
-            {
-                text: "Juniper",
-                correct: true
-            },
-            {
-                text: "Hickory",
-                correct: false
-            },
-        ]
-    },
-    {
-        image: "assets/images/q5_image-min.jpg",
-        question: "What tree has earned the nickname 'tree of the dead'?",
-        answers: [{
-                text: "Hawthorn (Crataegus monogyna)",
+                text: "Juniper (Juniperus)",
                 correct: false
             },
             {
@@ -94,7 +52,49 @@ const questions = [{
                 correct: true
             },
             {
-                text: "Wych Elm (Ulmus glabra)",
+                text: "Scots Pine (Pinus syvestris)",
+                correct: false
+            },
+            {
+                text: "Holly (Ilex aquifolium)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q4_image-min.jpg",
+        question: "Cuileann",
+        answers: [{
+                text: "Downy Birch (Betula pubescens",
+                correct: false
+            },
+            {
+                text: "Hazel (Corylus avellana)",
+                correct: false
+            },
+            {
+                text: "Holly (Ilex aquifolium)",
+                correct: true
+            },
+            {
+                text: "Ash (Fraxinus excelsior)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q5_image-min.jpg",
+        question: "Leamhán gallda",
+        answers: [{
+                text: "Hawthorn (Crataegus monogyna)",
+                correct: false
+            },
+            {
+                text: "Elm (Ulmus procera)",
+                correct: true
+            },
+            {
+                text: "Grey Willow (Salix cinerea)",
                 correct: false
             },
             {
@@ -105,18 +105,18 @@ const questions = [{
     },
     {
         image: "assets/images/q6_image-min.jpg",
-        question: "What is the national tree of Ireland?",
+        question: "Fearnóg",
         answers: [{
-                text: "Sessile Oak (Quercus petraea)",
+                text: "Dogwood (Cornus sanguinea)",
+                correct: false
+            },
+            {
+                text: "Field Maple 9Acer campestre)",
+                correct: false
+            },
+            {
+                text: "Alder (Alnus glutinosa)",
                 correct: true
-            },
-            {
-                text: "Holly (Ilex aquifolium)",
-                correct: false
-            },
-            {
-                text: "Whitethorn / Hawthorn (Crataegus)",
-                correct: false
             },
             {
                 text: " Mountain Ash / Rowan (Sorbus aucuparia)",
@@ -126,34 +126,72 @@ const questions = [{
     },
     {
         image: "assets/images/q7_image-min.jpg",
-        question: "The tallest tree in Ireland is a Douglas fir at the Powerscourt Estate in Co. Wicklow, but how tall is this tree?",
+        question: "Sceach gheal",
         answers: [{
-                text: "31 meter",
+                text: "Aspen (Populus tremula)",
                 correct: false
             },
             {
-                text: "43 meter",
+                text: "Whitebeam (Sorbus hibernica)",
                 correct: false
             },
             {
-                text: "56 meter",
+                text: "Elder (Sambucus nigra)",
+                correct: false
+            },
+            {
+                text: "Hawthorn / Whitethorn (Crataegus monogyna)",
                 correct: true
-            },
-            {
-                text: "64 meter",
-                correct: false
             },
         ]
     },
     {
         image: "assets/images/q8_image-min.jpg",
-        question: "Which of the following trees is NOT a native Irish tree?",
+        question: "	Saileach liath",
         answers: [{
-                text: "Scots Pine (Pinus sylvestris)",
+                text: "Grey Willow (Salix cinerea)",
+                correct: true
+            },
+            {
+                text: "White Willow (Salix alba)",
                 correct: false
             },
             {
-                text: "Weeping Golden Willow (Salix × sepulcralis 'Chrysocoma')",
+                text: "Creeping Willow (Salix repens)",
+                correct: false
+            },
+            {
+                text: "Osier Willow (Salix viminalis)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q9_image-min.jpg",
+        question: "	Feá",
+        answers: [{
+                text: "Beech (Fagus sylvatica)",
+                correct: true
+            },
+            {
+                text: "Ash (Fraxinus excelsior)",
+                correct: false
+            },
+            {
+                text: "Elder (Sambucus nigra)",
+                correct: false
+            },
+            {
+                text: "Pedunculate Oak (Quercus robur)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q10_image-min.jpg",
+        question: "	Coll",
+        answers: [{
+                text: "Crab Apple (Malus sylvestris)",
                 correct: false
             },
             {
@@ -161,50 +199,12 @@ const questions = [{
                 correct: false
             },
             {
-                text: "Horse Chestnut (Aesculus hippocastanum)",
+                text: "Wych Elm (Ulmus glabra)",
+                correct: false
+            },
+            {
+                text: "Hazel (Corylus avellana)",
                 correct: true
-            },
-        ]
-    },
-    {
-        image: "assets/images/q9_image-min.jpg",
-        question: "Most timber can float in water, but which of the following will sink?",
-        answers: [{
-                text: "Aspen (Populus tremula)",
-                correct: false
-            },
-            {
-                text: "Ebony (Diospyros ebenum)",
-                correct: true
-            },
-            {
-                text: "Spindle (Euonymus europaeus)",
-                correct: false
-            },
-            {
-                text: "Arbutus (Arbutus unedo)",
-                correct: false
-            },
-        ]
-    },
-    {
-        image: "assets/images/q10_image-min.jpg",
-        question: "Ireland has 3 native conifers, which one below is not one of them?",
-        answers: [{
-                text: "Juniper (Juniperus)",
-                correct: false
-            },
-            {
-                text: "Yew (Taxus baccata)",
-                correct: false
-            },
-            {
-                text: "Larch (Larix)",
-                correct: true
-            },
-            {
-                text: "Scots Pine (Pinus sylvestris)",
-                correct: false
             },
         ]
     },
