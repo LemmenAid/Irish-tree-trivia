@@ -1,92 +1,159 @@
-const questions = [{
-        image: "assets/images/q1_image-min.jpg",
-        question: "How much of Ireland is covered with native forest?",
+ const questions = [{
+        image: "assets/images/q2_1.jpg",
+        question: "The wood of this tough tree doesn't rot when waterlogged, instead turning stronger and harder. Male catkins are yellow and dangly, and female catkins are green and oval-shaped..",
         answers: [{
-                text: "2%",
+                text: "Wych Elm (Ulmus glabra)",
+                correct: false
+            },
+            {
+                text: "Alder (Alnus glutinosa)",
                 correct: true
             },
             {
-                text: "11%",
+                text: "Grey Willow (Salix cinerea)",
                 correct: false
             },
             {
-                text: "27%",
-                correct: false
-            },
-            {
-                text: "33%",
+                text: "Spindle (Euonymus europaeus)",
                 correct: false
             },
         ]
     },
     {
-        image: "assets/images/q2_image-min.jpg",
-        question: "How much of Ireland was once upon a time covered with forest?",
+        image: "assets/images/q2_2.jpg",
+        question: "Can you identify the trees on this island in Connemara?",
         answers: [{
-                text: "50%",
-                correct: false
-            },
-            {
-                text: "60%",
-                correct: false
-            },
-            {
-                text: "70%",
-                correct: false
-            },
-            {
-                text: "80%",
-                correct: true
-            },
-        ]
-    },
-    {
-        image: "assets/images/q3_image-min.jpg",
-        question: "What does the Latin word 'arboretum' mean?",
-        answers: [{
-                text: "Group of trees near water",
-                correct: false
-            },
-            {
-                text: "Ancient field",
-                correct: false
-            },
-            {
-                text: "Woodland glade",
-                correct: false
-            },
-            {
-                text: "Place with trees",
-                correct: true
-            },
-        ]
-    },
-    {
-        image: "assets/images/q4_image-min.jpg",
-        question: "Which of the following trees does NOT produce nuts?",
-        answers: [{
-                text: "Hazel",
-                correct: false
-            },
-            {
-                text: "Oak",
-                correct: false
-            },
-            {
-                text: "Juniper",
+                text: "Scots Pine (Pinus sylvestris)",
                 correct: true
             },
             {
-                text: "Hickory",
+                text: "Larch (Larix decidua)",
+                correct: false
+            },
+            {
+                text: "Yew (Taxus baccata)",
+                correct: false
+            },
+            {
+                text: "Aspen (Populus tremula)",
                 correct: false
             },
         ]
     },
     {
-        image: "assets/images/q5_image-min.jpg",
-        question: "What tree has earned the nickname 'tree of the dead'?",
+        image: "assets/images/q2_3.jpg",
+        question: "The ruling majesty of the woods, this tree is featured in the Celtic Tree of Life symbol.",
         answers: [{
-                text: "Hawthorn (Crataegus monogyna)",
+                text: "Horse Chestnut (Aesculus hippocastanum)",
+                correct: false
+            },
+            {
+                text: "Silver Birch (Betula pendula)",
+                correct: false
+            },
+            {
+                text: "Ash (Fraxinus excelsior)",
+                correct: false
+            },
+            {
+                text: "Oak (Quercus robur)",
+                correct: true
+            },
+        ]
+    },
+    {
+        image: "assets/images/q2_4.jpg",
+        question: "Which tree produces these beautiful flowers in Spring?",
+        answers: [{
+                text: "Elder (Sambucus nigra)",
+                correct: false
+            },
+            {
+                text: "Apple Tree (Malus)",
+                correct: true
+            },
+            {
+                text: "Wild Cherry (Prunus avium)",
+                correct: false
+            },
+            {
+                text: "Rowan / Mountain Ash (Sorbus aucuparia)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q2_5.jpg",
+        question: "And what about these? These trees are thought to bring good luck to the landowner, and terrible misfortune upon whomever damages it.",
+        answers: [{
+                text: "Hawthorn / Whitethorn (Crataegus laevigata)",
+                correct: true
+            },
+            {
+                text: "Rowan / Mountain Ash (Sorbus aucuparia)",
+                correct: false
+            },
+            {
+                text: "Blackthorn / Sloe (Prunus spinosa)",
+                correct: false
+            },
+            {
+                text: "Whitebeam (Sorbus hibernica)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q2_6.jpg",
+        question: "Which conifer produces these berries and is used to make a delicious drink?",
+        answers: [{
+                text: "Scots Pine (Pinus syvestris)",
+                correct: false
+            },
+            {
+                text: "Holly (Ilex aquifolium)",
+                correct: false
+            },
+            {
+                text: "Rowan / Mountain Ash (Sorbus aucuparia)",
+                correct: false
+            },
+            {
+                text: "Juniper (Juniperus communis)",
+                correct: true
+            },
+        ]
+    },
+    {
+        image: "assets/images/q2_7.jpg",
+        question: "A slow-growing native evergreen tree, well known for its spiky leaves and red berries.",
+        answers: [{
+                text: "Hawthorn / Whitethorn (Crataegus monogyna)",
+                correct: false
+            },
+            {
+                text: "Ash (Fraxinus excelsior)",
+                correct: false
+            },
+            {
+                text: "Holly (Ilex aquifolium)",
+                correct: true
+            },
+            {
+                text: "Yew (Taxus baccata)",
+                correct: false
+            },
+        ]
+    },
+    {
+        image: "assets/images/q2_8.jpg",
+        question: "Ancient, morbid, toxic. This tree is one of the longest-lived native species in Europe. This has made it a symbol of death and doom, but it provides food and shelter for woodland animals.",
+        answers: [{
+                text: "Scots Pine (Pinus sylvestris)",
+                correct: false
+            },
+            {
+                text: "Larch (Larix decidua)",
                 correct: false
             },
             {
@@ -94,87 +161,20 @@ const questions = [{
                 correct: true
             },
             {
-                text: "Wych Elm (Ulmus glabra)",
-                correct: false
-            },
-            {
-                text: "Silver birch (Betula pendula)",
+                text: "Juniper (Juniperus)",
                 correct: false
             },
         ]
     },
     {
-        image: "assets/images/q6_image-min.jpg",
-        question: "What is the national tree of Ireland?",
+        image: "assets/images/q2_9.jpg",
+        question: "These trees can live for up to 200 years and its leaves and berries are a favourite for wildlife.",
         answers: [{
-                text: "Sessile Oak (Quercus petraea)",
-                correct: true
-            },
-            {
-                text: "Holly (Ilex aquifolium)",
+                text: "Hazel (Corylus avellana)",
                 correct: false
             },
             {
-                text: "Whitethorn / Hawthorn (Crataegus)",
-                correct: false
-            },
-            {
-                text: " Mountain Ash / Rowan (Sorbus aucuparia)",
-                correct: false
-            },
-        ]
-    },
-    {
-        image: "assets/images/q7_image-min.jpg",
-        question: "The tallest tree in Ireland is a Douglas fir at the Powerscourt Estate in Co. Wicklow, but how tall is this tree?",
-        answers: [{
-                text: "31 meter",
-                correct: false
-            },
-            {
-                text: "43 meter",
-                correct: false
-            },
-            {
-                text: "56 meter",
-                correct: true
-            },
-            {
-                text: "64 meter",
-                correct: false
-            },
-        ]
-    },
-    {
-        image: "assets/images/q8_image-min.jpg",
-        question: "Which of the following trees is NOT a native Irish tree?",
-        answers: [{
-                text: "Scots Pine (Pinus sylvestris)",
-                correct: false
-            },
-            {
-                text: "Weeping Golden Willow (Salix × sepulcralis 'Chrysocoma')",
-                correct: false
-            },
-            {
-                text: "Guelder Rose (Viburnum opulus)",
-                correct: false
-            },
-            {
-                text: "Horse Chestnut (Aesculus hippocastanum)",
-                correct: true
-            },
-        ]
-    },
-    {
-        image: "assets/images/q9_image-min.jpg",
-        question: "Most timber can float in water, but which of the following will sink?",
-        answers: [{
-                text: "Aspen (Populus tremula)",
-                correct: false
-            },
-            {
-                text: "Ebony (Diospyros ebenum)",
+                text: "Rowan / Mountain Ash (Sorbus aucuparia)",
                 correct: true
             },
             {
@@ -182,28 +182,28 @@ const questions = [{
                 correct: false
             },
             {
-                text: "Arbutus (Arbutus unedo)",
+                text: "Blackthorn / Sloe (Prunus spinosa)",
                 correct: false
             },
         ]
     },
     {
-        image: "assets/images/q10_image-min.jpg",
-        question: "Ireland has 3 native conifers, which one below is not one of them?",
+        image: "assets/images/q2_10.jpg",
+        question: "Feared by the devil. Favoured by foragers. Can you name this tree?",
         answers: [{
-                text: "Juniper (Juniperus)",
-                correct: false
-            },
-            {
-                text: "Yew (Taxus baccata)",
-                correct: false
-            },
-            {
-                text: "Larch (Larix)",
+                text: "Elder (Sambucus nigra)",
                 correct: true
             },
             {
-                text: "Scots Pine (Pinus sylvestris)",
+                text: "Alder (Alnus glutinosa)",
+                correct: false
+            },
+            {
+                text: "Crab Apple (Malus sylvestris)",
+                correct: true
+            },
+            {
+                text: "Guelder Rose (Viburnum opulus)",
                 correct: false
             },
         ]
