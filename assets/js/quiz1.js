@@ -313,6 +313,7 @@ nextButton.addEventListener("click", () => {
         handleNextButton();
     } else {
         startQuiz();
+        
     }
 });
 
