@@ -66,7 +66,7 @@ const questions = [{
     },
     {
         image: "assets/images/q2_4.jpg",
-        question: "Of Which tree are these beautiful flowers?",
+        question: "Of which tree are these beautiful flowers?",
         answers: [{
                 text: "Elder (Sambucus nigra)",
                 correct: false
