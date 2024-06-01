@@ -63,7 +63,7 @@
     },
     {
         image: "assets/images/q2_4.jpg",
-        question: "Which tree produces these beautiful flowers in Spring?",
+        question: "Of Which tree are these beautiful flowers?",
         answers: [{
                 text: "Elder (Sambucus nigra)",
                 correct: false
@@ -200,7 +200,7 @@
             },
             {
                 text: "Crab Apple (Malus sylvestris)",
-                correct: true
+                correct: false
             },
             {
                 text: "Guelder Rose (Viburnum opulus)",

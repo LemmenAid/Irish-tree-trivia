@@ -1,3 +1,6 @@
+/**
+ * Question / answer Array
+ */
 const questions = [{
         image: "assets/images/q1_image-min.jpg",
         question: "How much of Ireland is covered with native forest?",
@@ -218,8 +221,10 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 /**
- * Starts the quiz
+ * Starts the quiz  
  */
+// code used from GreatStack Channel on YouTube
+// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -230,7 +235,9 @@ function startQuiz() {
 
 /**
  * Shows the question with answer options to the player
- */
+ */ 
+ // code used from GreatStack Channel on YouTube
+ // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -256,6 +263,8 @@ function showQuestion() {
 /** 
  * Removes the html answer options buttons 
  */
+// code used from GreatStack Channel on YouTube
+// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
@@ -266,6 +275,8 @@ function resetState() {
 /**
  * selects answer correct or incorrect
  */
+// code used from GreatStack Channel on YouTube
+// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -286,12 +297,39 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+
 /**
- * Shows score after all questions are answered
+ * Show score and message depending on score
  */
+// Used from GreatStack Channel on YouTube
+// Adapted this function to add message depending on the score
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    let message = "";
+    if (score === 0) {
+        message = "Weeping Willow! You scored 0 out of 10.";
+    } else if (score === 1) {
+        message = "Roots and shoots! You scored 1 out of 10.";
+    } else if (score === 2) {
+        message = "Sad Sapling! You scored 2 out of 10.";
+    } else if (score === 3) {
+        message = "You're branching out.. You scored 3 out of 10!";
+    } else if (score === 4) {
+        message = "Forest factual, you scored 4 out of 10!";
+    } else if (score === 5) {
+        message = "Leafy Lore, you scored 5 out of 10!";
+    } else if (score === 6) {
+        message = "Canopy Cute, You scored 6 out of 10!";
+    } else if (score === 7) {
+        message = "Top of the Trees! You scored 7 out of 10.";
+    } else if (score === 8) {
+        message = "Sapling Savvy! You scored 8 out of 10.";
+    } else if (score === 9) {
+        message = "Timber talent! You scored 9 out of 10.";
+    } else if (score === 10) {
+        message = "Woodland Wisdom You scored 10 out of 10.";
+    }
+    questionElement.innerHTML = message;
     nextButton.innerHTML = "Play again";
     nextButton.style.display = "block";
 }
@@ -299,6 +337,8 @@ function showScore() {
 /**
  * Shows next question, unless all questions are done, then show score
  */
+// code used from GreatStack Channel on YouTube
+// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -313,7 +353,7 @@ nextButton.addEventListener("click", () => {
         handleNextButton();
     } else {
         startQuiz();
-        
+
     }
 });
 
