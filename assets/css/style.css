@@ -15,11 +15,11 @@ body {
   /* Generic project styles */
   font-size: 0.8125rem;
   color: #212121;
-  background: #748337;
+  /* background: #748337; */
   font-family: helvetica, sans-serif;
 
-  /* background: url("../images/background_hp.jpg");
-  background-position: center; */
+  background: url("../images/background_pattern.png");
+  background-position: center; 
 }
 
 /* Header */
@@ -29,27 +29,32 @@ header {
   align-items: center;
   justify-content: center;
   min-height: 20vh;
-  background: #ebece9;
+  background: #c4dac4f2;
   border-radius: 0 0 2px 2px;
   box-shadow: 0 1px 1px #3a3a3a;
 }
 
 header a {
-  color: inherit;
   text-decoration: none;
 }
 
-header a:hover {
-  color: #212121;
-}
-
-header img {
+header span {
   height: 10rem;
   border-radius: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #212121;
+  cursor: pointer;
 }
 
+header span:hover {
+  color: #83ae90;
+}
 .home-page {
-  background-color:#d3da8cf5;
+  background-color:#82ad90f2;
   width: 85%;
   max-width: 900px;
   margin: 60px auto;
@@ -66,7 +71,7 @@ header img {
 }
 
 .button {
-  background-color: #fcffdc;
+  background-color: #cde6d3;
   border-radius: 5px;
   color: #212121;
   font-size: 1rem;
@@ -79,8 +84,8 @@ header img {
 }
 
 .button:hover {
-  background-color: #212121;
-  color: #fff;
+  background-color: #4e875f;;
+  color: #fff;;
 }
 
 .intro-text {
@@ -92,7 +97,7 @@ header img {
 
 /* Styles for quiz area */
 .app {
-  background: #fff;
+  background: #82ad90f2;
   width: 90%;
   max-width: 600px;
   margin: 100px auto;
@@ -148,7 +153,7 @@ header img {
 }
 
 #next-btn {
-  background: #62840a;
+  background: #1b4533;
   color: #fff;
   font-weight: 500;
   font-size: 0.9rem;
@@ -163,11 +168,11 @@ header img {
 }
 
 .correct {
-  background: #a9c265;
+  background: #9cd0b9;
 }
 
 .incorrect {
-  background: #dc993a;
+  background: #dabc93;
 }
 
 #question-image {
@@ -189,8 +194,7 @@ header img {
   padding: 2.5rem;
   padding-top: 4rem;
   font-size: 0.7rem;
-  /* background: url("../images/Hero_image_2.jpg") no-repeat center center/cover; */
-  background-color: #ebece9;
+  background-color: #c4dac4f2;
 }
 
 /* Style footer logo */
@@ -203,7 +207,7 @@ header img {
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: 1.2px;
-  color: #fff3ea;
+  color: #212121;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -216,12 +220,12 @@ header img {
 
 .footer-logo a {
   text-decoration: none;
-  color: currentColor;
+  color: #212121;
   font-size: 1rem;
 }
 
 .footer-logo a:hover {
-  color: #a6e029;
+  color: #83ae90;
 }
 
 /* Style Footer social media icons */
@@ -234,7 +238,7 @@ header img {
   display: inline-block;
   list-style-type: none;
   margin-left: 1.5rem;
-  color: #fff3ea;
+  color: #212121
   margin-right: 15px;
 }
 
@@ -245,9 +249,9 @@ header img {
 }
 
 .social-media a {
-  color: #fff3ea;
+  color: #212121;
 }
 
 .social-media a:hover {
-  color: #a6e029;
+  color: #83ae90;
 }
