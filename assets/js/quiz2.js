@@ -1,7 +1,4 @@
-/**
- * Question / answer Array
- */
-const questions = [{
+ const questions = [{
         image: "assets/images/q2_1.jpg",
         question: "The wood of this tough tree doesn't rot when waterlogged, instead turning stronger and harder. Male catkins are yellow and dangly, and female catkins are green and oval-shaped..",
         answers: [{
@@ -221,10 +218,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 /**
- * Starts the quiz  
+ * Starts the quiz
  */
-// code used from GreatStack Channel on YouTube
-// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -235,9 +230,7 @@ function startQuiz() {
 
 /**
  * Shows the question with answer options to the player
- */ 
- // code used from GreatStack Channel on YouTube
- // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
+ */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -263,8 +256,6 @@ function showQuestion() {
 /** 
  * Removes the html answer options buttons 
  */
-// code used from GreatStack Channel on YouTube
-// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
@@ -275,8 +266,6 @@ function resetState() {
 /**
  * selects answer correct or incorrect
  */
-// code used from GreatStack Channel on YouTube
-// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -296,7 +285,6 @@ function selectAnswer(e) {
     /* Show the next button after answering */
     nextButton.style.display = "block";
 }
-
 
 /**
  * Show score and message depending on score
@@ -327,7 +315,7 @@ function showScore() {
     } else if (score === 9) {
         message = "Timber talent! You scored 9 out of 10.";
     } else if (score === 10) {
-        message = "Woodland Wisdom You scored 10 out of 10.";
+        message = "Woodland Wisdom! You scored 10 out of 10.";
     }
     questionElement.innerHTML = message;
     nextButton.innerHTML = "Play again";
@@ -337,8 +325,6 @@ function showScore() {
 /**
  * Shows next question, unless all questions are done, then show score
  */
-// code used from GreatStack Channel on YouTube
-// How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -353,7 +339,6 @@ nextButton.addEventListener("click", () => {
         handleNextButton();
     } else {
         startQuiz();
-
     }
 });
 

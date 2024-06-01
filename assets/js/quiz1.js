@@ -327,7 +327,7 @@ function showScore() {
     } else if (score === 9) {
         message = "Timber talent! You scored 9 out of 10.";
     } else if (score === 10) {
-        message = "Woodland Wisdom You scored 10 out of 10.";
+        message = "Woodland Wisdom! You scored 10 out of 10.";
     }
     questionElement.innerHTML = message;
     nextButton.innerHTML = "Play again";
