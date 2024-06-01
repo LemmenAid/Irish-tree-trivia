@@ -223,7 +223,7 @@ let score = 0;
 /**
  * Starts the quiz  
  */
-// code used from GreatStack Channel on YouTube
+// code used from GreatStack Channel on YouTube:
 // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function startQuiz() {
     currentQuestionIndex = 0;
@@ -236,7 +236,7 @@ function startQuiz() {
 /**
  * Shows the question with answer options to the player
  */ 
- // code used from GreatStack Channel on YouTube
+ // code used from GreatStack Channel on YouTube:
  // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function showQuestion() {
     resetState();
@@ -263,7 +263,7 @@ function showQuestion() {
 /** 
  * Removes the html answer options buttons 
  */
-// code used from GreatStack Channel on YouTube
+// code used from GreatStack Channel on YouTube:
 // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function resetState() {
     nextButton.style.display = "none";
@@ -275,7 +275,7 @@ function resetState() {
 /**
  * selects answer correct or incorrect
  */
-// code used from GreatStack Channel on YouTube
+// code used from GreatStack Channel on YouTube:
 // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function selectAnswer(e) {
     const selectedBtn = e.target;
@@ -337,7 +337,7 @@ function showScore() {
 /**
  * Shows next question, unless all questions are done, then show score
  */
-// code used from GreatStack Channel on YouTube
+// code used from GreatStack Channel on YouTube:
 // How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript
 function handleNextButton() {
     currentQuestionIndex++;
