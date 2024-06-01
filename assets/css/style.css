@@ -20,6 +20,7 @@ body {
 
   background: url("../images/background_pattern.png");
   background-position: center; 
+  background-color: #515d58;
 }
 
 /* Header */
@@ -28,8 +29,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 20vh;
-  background: #c4dac4f2;
+  min-height: 12vh;
+  background: #c3decbed;
   border-radius: 0 0 2px 2px;
   box-shadow: 0 1px 1px #3a3a3a;
 }
