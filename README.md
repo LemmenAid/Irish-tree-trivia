@@ -10,7 +10,7 @@
 
 ## Project Description  
 
-_Irish Tree Trivia an interactive website developed for my second portfolio project with [Code Institute](https://codeinstitute.net/ie/)._
+_Irish Tree Trivia an interactive, front-end website developed for my second portfolio project with [Code Institute](https://codeinstitute.net/ie/)._
 
 Irish Tree Trivia is a website that hopes to enthuse and inform people about our native Irish trees.
 The site is targeted towards people who live in Ireland and are either interested in trees already or who are looking for a quiz to do online. The site will be useful for everyone who would like to know more about trees and wants to test their knowledge on the topic. The website provides three different quizes for people to play and potentially learn something along the way.
@@ -65,27 +65,27 @@ The following code has been imported into the top of the style.css
 
     @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-![alt text](README-files/PT-Serif)<br>
+![alt text](README-files/PT-Serif.png)<br>
 
 ### Call to Action
 
-* The call to action button on the landing page leads to the About Us page. On the About Us page there is a call to action button that leads to the Signup Page. This way visitors read more about the swim club before being lead to the Signup Page, for an informed and easy navigation throughout the website.
+* The call to action buttons on the landing page lead to the three different quizes. At the end of each quiz there is a call to action button to replay the game.
 * All the buttons on the website are styled with a colour change so that it is clear for any visitor that these are buttons.
-* The social media links will send the visitor to the company’s social media pages. The links will open in a new tab.
-* The links in the footer for the “Contact Us” section are highlighted with an underline when the mouse hoovers over them, so that it is clear to the visitor that these are links.
+* The social media links will send the visitor to the social media pages. The links will open in a new tab.
+* The header and footer logo have a colour change hover effect to make it clear that they are links.
 
 ### Imagery
 
-Because this website is concept based, there were no real images of this Swimclub that could be used. Therefor I tried to find images that match the colour scheme and theme of the website. I used Pexels as a free images source.
+Images used in the different quizes were selected for their aesthetic appeal and informative use.
 
-Links to Pexels images:
+Several free image sources were used:
 
-* [Landing page image](https://www.pexels.com/photo/man-in-black-shorts-swimming-in-water-9500557/)
-* [Meetup page image](https://www.pexels.com/photo/men-diving-swimming-underwater-6181960/)
-* [Signup page image](https://www.pexels.com/photo/group-of-people-swimming-on-beach-1249545/)
+* [quiz 1 - 1](https://www.pexels.com/photo/man-in-black-shorts-swimming-in-water-9500557/)
 
-* The About Us page image was a photo taken by me.
 
+For the background of the website a free image was used to make a pattern.
+
+* [image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
 
 ### Layout / Wireframes
 

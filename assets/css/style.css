@@ -23,7 +23,7 @@ body {
 
   background: url("../images/background_pattern.png");
   background-position: center; 
-  background-color: #515d58;
+  background-color: #7d978c;
 }
 
 /* Header */
@@ -124,7 +124,7 @@ header span:hover {
 .quiz h2 {
   font-size: 1.1rem;
   letter-spacing: 0.6px;
-  color: #242c07;
+  color: #212121;
   font-weight: 500;
   font-family: "PT Serif", Times, serif;
   margin-bottom: 5px;
