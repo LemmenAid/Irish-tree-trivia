@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
   padding: 0;
@@ -42,7 +45,7 @@ header a {
 header span {
   height: 10rem;
   border-radius: 3px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "PT Serif", Times, serif;
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -123,7 +126,7 @@ header span:hover {
   letter-spacing: 0.6px;
   color: #242c07;
   font-weight: 500;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "PT Serif", Times, serif;
   margin-bottom: 5px;
   margin-top: 30px;
 }
@@ -216,7 +219,7 @@ header span:hover {
 .footer-logo span {
   margin: 0;
   letter-spacing: 2px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "PT Serif", Times, serif;
 }
 
 .footer-logo a {
@@ -239,7 +242,7 @@ header span:hover {
   display: inline-block;
   list-style-type: none;
   margin-left: 1.5rem;
-  color: #212121
+  color: #212121;
   margin-right: 15px;
 }
 

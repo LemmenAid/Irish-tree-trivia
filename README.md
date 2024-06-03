@@ -1,114 +1,394 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# IRISH TREE TRIVIA
 
-Welcome Karlan Lemmen,
+![Main Mockup](README-files/mockup-main.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View Live Website here.](https://lemmenaid.github.io/Irish-tree-trivia/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+[GitHub Repo](https://github.com/LemmenAid/Irish-tree-trivia)
 
-## Gitpod Reminders
+*** 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Description  
 
-`python3 -m http.server`
+_Irish Tree Trivia an interactive website developed for my second portfolio project with [Code Institute](https://codeinstitute.net/ie/)._
 
-A blue button should appear to click: _Make Public_,
+Irish Tree Trivia is a website that hopes to enthuse and inform people about our native Irish trees.
+The site is targeted towards people who live in Ireland and are either interested in trees already or who are looking for a quiz to do online. The site will be useful for everyone who would like to know more about trees and wants to test their knowledge on the topic. The website provides three different quizes for people to play and potentially learn something along the way.
 
-Another blue button should appear to click: _Open Browser_.
+## Project Purpose
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+By creating a fun way for people to learn about the forests of Ireland this website hopes to help bring more awareness to Ireland's native forests and the state they are in. Despite its green image, Ireland has very little forest: just 11% (and only 2% if you purely look at native forest). However, thousands of years ago, more than 80% of Ireland was covered in trees. Over many centuries they were then almost entirely chopped down, mostly for agricultural purposes. Nowadays people believe that the green hills of Ireland are "natural", but as a matter of fact, they are man made and have created a poor enviroment for biodivesity. 
 
-A blue button should appear to click: _Make Public_,
+***
 
-Another blue button should appear to click: _Open Browser_.
+## Index – Table of Contents
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* [User Experience (UX)](#user-experience) 
+* [Design](#design)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Solved Bugs](#solved-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-To log into the Heroku toolbelt CLI:
+***
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Experience (UX)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### User Stories
 
-------
+1. As a first time user, I want to easily understand the main purpose of the site. 
+2. As a new user, I want to easily navigate the site, so I can find what I need efficiently. 
+3. As an interested user I want to be able to learn a bit about Ireland's forests.
+4. As an interested user I want to be able to play the three quizes. 
+5. As a returning user, I want to easily play the quiz again.
 
-## Release History
+***
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design
 
-**May 28 2024:** Fix Mongo and Links installs
+### Colour Scheme
 
-**April 26 2024:** Update node version to 16
+![alt text](README-files/colour-palette.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+* The colour scheme is inspired by the colour of a lush green forest. The green colour is used in different shades for the main background of the quiz, header and footer. The rest of the colours are kept in neutral whites and dark grays to maintain a sereen feeling.
+* The shades of the colours are all chosen with good readability and accessibility in mind.
+* The design was made to be aesthetically pleasing, to give users a positive and attractive feeling towards the subject - Irish trees. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Typography
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The typography used throughout the site is Noto Sans, imported from google fonts. Noto Sans was chosen because of it’s readability in various sizes and clean design. As a fallback font sans serif is used. The letter spacing has been increased to improve readability in the paragraphs. For the heading even more letter spacing has been applied to make them stand out, as well as a heavier font weight. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The following code has been imported into the top of the style.css
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    @import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![alt text](README-files/noto-sans.png)<br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Call to Action
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* The call to action button on the landing page leads to the About Us page. On the About Us page there is a call to action button that leads to the Signup Page. This way visitors read more about the swim club before being lead to the Signup Page, for an informed and easy navigation throughout the website.
+* All the buttons on the website are styled with a colour change so that it is clear for any visitor that these are buttons.
+* The social media links will send the visitor to the company’s social media pages. The links will open in a new tab.
+* The links in the footer for the “Contact Us” section are highlighted with an underline when the mouse hoovers over them, so that it is clear to the visitor that these are links.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Imagery
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Because this website is concept based, there were no real images of this Swimclub that could be used. Therefor I tried to find images that match the colour scheme and theme of the website. I used Pexels as a free images source.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Links to Pexels images:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* [Landing page image](https://www.pexels.com/photo/man-in-black-shorts-swimming-in-water-9500557/)
+* [Meetup page image](https://www.pexels.com/photo/men-diving-swimming-underwater-6181960/)
+* [Signup page image](https://www.pexels.com/photo/group-of-people-swimming-on-beach-1249545/)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* The About Us page image was a photo taken by me.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Layout / Wireframes
 
-------
+* The basic design layout of the website has been made using wireframes with Balsamiq. 
+* Responsive design has been used for creating this website. For instance, when a page goes from mobile to larger screens some of the content goes from stacked to lined up.
 
-## FAQ about the uptime script
+#### Home Page
+![alt text](README-files/wireframe-main.png)<br>
 
-**Why have you added this script?**
+#### About Us Page
+![alt text](README-files/wireframe-about.png)<br>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Meetup Page
+![alt text](README-files/wireframe-meetup.png)<br>
 
-**How will this affect me?**
+#### Signup Page
+![alt text](README-files/wireframe-signup.png)<br>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Mobile View
+![alt text](README-files/mb-all-wireframe.png)<br>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+***
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Features
 
-**So….?**
+### General Features on each page
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Navigation Bar
 
-**Can I opt out?**
+* Featured on all three pages, the full responsive navigation bar includes links to the Logo/landing page, about us, meetup times and Sign Up page and is identical in each page to allow for easy navigation.
+* This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Navigation bar:<br>
+![Nav Bar](README-files/navbar.png)
+
+Dropdown navigation menu:<br>
+![Nav Bar dropdown menu](README-files/navbar-drop.png)
+
+#### The Footer
+
+  * Featured on all three pages, the footer section includes the contact information of the club.
+  * The footer section includes links to the relevant social media sites for Atlantic Dippers. The links will open to a new tab to allow easy navigation for the user. 
+
+
+![Footer](README-files/footer.png)
+
+
+### Features by page
+
+#### Landing Page
+
+* The landing page introduces the user to Atlantic Dippers with an eye catching photograph to grab their attention.
+* This page includes a call to action button that leads to the “About Us” which allows users to easily find more information about the club. 
+* The landing page also has three buttons to external links that are useful for members of the club. They are on the landing page so frequent users are just one click away from this information, like the local tides, local weather and national swimming events.
+
+![Landing Page](README-files/landing-page.png)
+
+#### About Page
+
+* The about page includes a brief outline of what the club is all about.
+* This page also includes some information about the benefits of cold water dipping and swimming.
+* A call to action button is added to the bottom of the page which leads visitors to the Signup page.
+
+![About Us](README-files/about.png)
+
+#### Meetup Times Page
+
+* This page informs the user about when the meetups will happen and where they will be located.
+* Included on this page is a google map that was embedded via Google Maps with the exact location where the Atlantic Dippers meet up.
+
+![Meetup Times](README-files/meetup.png)
+
+
+#### Sign Up Page
+
+* This page will allow the user to get signed up to the Atlantic Dippers to start their dipping journey with their local community. The user will be asked what level of previous experience they have with open water swimming. The user will be asked to submit their full name and email address. 
+
+![Sign Up](README-files/signup.png)
+
+
+### Future Implementations
+
+* Because the colour palette features several times throughout the website I would’ve liked to  have set a variable in the code for this, so it would be easier to change the palette if necessary.
+* A page about water safety.
+* A dedicated contact page.
+
+*** 
+
+## Technologies Used
+
+* HTML5 - Mark-up language using semantic structure.
+* CCS3 - Cascading stylesheet used to style the website.
+* Gitpod.io - For writing the code. Using the command line for committing and pushing to Git Hub
+* GitHub - Used to host repository 
+
+### Design
+* Noto Sans Font from [Google Fonts](https://fonts.google.com/) 
+* Icons from [Font Awesome](https://fontawesome.com/)
+* Favicon [Favicon](https://favicon.io)
+* Wireframes [Balsamiq wireframe](https://balsamiq.com/)
+* Google maps embed from Google inc. [Google Maps](https://www.google.com/maps)
+* Images from [Pexels](https://www.pexels.com/)
+* Colour palette generator [Coolors](https://coolors.co/)
+
+### Testing
+* Testing validity of HTML with [Validator](https://validator.w3.org/) 
+* Testing validity of CSS with [CSS Validator](https://validator.w3.org/)
+* Checking responsive nature with [UI](https://ui.dev/amiresponsive?/)
+* Testing performance and accessibility with DEV Tools - Lighthouse
+
+***
+
+## Testing
+
+The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
+
+### Functionality
+
+| Feature | Testing Performed | Expected Outcome | Pass/Fail |
+| --- | --- | --- | --- |
+|  |  |  |  |
+| Atlantic Dipper Logo and Title | Click Logo and Title | When clicked the user will be redirected to the home page. | PASS |
+| Internal Links | Click on internal links | Internal links redirect to where they should. | PASS |
+| External Links | Click on external links | External links go where they should and open in separate tab. | PASS |
+| Social Media Icons | Click Icons | When clicked the user will be redirected to the appropriate social media pages in a separate tab. | PASS |
+| Google Map | Click on Map | Map should be interactive when clicked on. | PASS |
+| Form Dump | Submit form with all fields filled out | Form input goes to form dump and form dumps shows data from all form fields. | PASS |
+| Signup form | Click signup button while leaving form unfillled | Required fields are validated accordingly. | PASS |
+| Signup form email | Click signup button while not including the @ in the email field | Email field is validated for format. | PASS |
+
+
+### Browser Compatibility
+* The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
+* The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
+
+### Responsivness
+* The website has been tested on different screen sizes and it's responsive on all screens from mobile phones to desktops.
+* Chrome DEV Tools have been used to check the responsivness.
+
+### Validator Testing
+
+#### HTML
+* The [W3C](https://validator.w3.org/) Markup Validator was used to validate every page of the project to check that there were no syntax errors made in the HTML code.
+
+* There was one error returned about an inline style attribute:
+
+![alt text](README-files/html-error.png)
+
+* I removed the inline style attribute and solved it with CSS. After that no errors were returned for any of the pages.
+
+![alt text](README-files/html-pass.png)
+
+#### CSS
+* The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project.
+
+* Two value errors were returned:<br>
+
+![alt text](README-files/css-errors.png)
+
+* After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
+
+![alt text](README-files/css-pass.png)
+
+* There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.<br>
+
+![alt text](README-files/css-warnings.png)
+
+
+### Lighthouse
+
+After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. 
+
+#### Landing Page
+
+![alt text](README-files/lh-landing.png)
+
+#### About Us Page
+
+![alt text](README-files/lh-about.png)
+
+#### Meetup Page
+
+![alt text](README-files/lh-meetup.png)
+
+#### Signup Page
+
+![alt text](README-files/lh-signup.png)
+
+
+***
+
+## Solved Bugs
+
+* During testing for Accessibility I realised that the background colour had to be changed for better readability. I changed it to a lighter hue and that was an improvement.
+* During testing, I got the feedback that some of my font sizes were too small. I increased the font size in a lot of places, like the header, footer but also main content.
+* During testing I changed the colour from orange to black for the titles in my main content, this made it a lot more readable.
+* During testing it was discovered that in the Signup form the field for the experience question was an input field and therefore only took a single line answer. I changed the field from an input field to a textarea field to solve this.
+
+***
+
+## Deployment
+
+I have taken the following from the Sample README from Code Institute for this deployment section.
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+***
 
-Happy coding!
+## Credits
+
+* I would like to thank Brian Macharia for his great mentor support and guidance - helping me through the process of building my first ever website.
+* My facilitator Amy from Code Institute for supporting us through our first project and giving us great tips and resources for learning tools, and her feedback during the weekly stand-ups.
+* Tutor support at Code Institute for their support when I got stuck with CodeAnywhere (and changed over to GitPod).
+* At last I would like to give thanks to my friends for taking the time to test the website and giving me great feedback.
+
+### Content
+
+Idea and content are developed by myself. 
+
+For the text about the health benefits of cold water dipping I have used several sources:
+* [Healtline](https://www.healthline.com/health/cold-water-therapy)
+* [Everyday Health](https://www.everydayhealth.com/wellness/possible-health-benefits-to-cold-water-therapy/)
+* [Harpers Bazaar](https://www.harpersbazaar.com/beauty/health/a43116150/best-cold-plunge-benefits/)
+
+I have taken inspiration from the following swim club websites for the layout and some of the text:
+* [Wexford Masters Seaswimming Club](https://wexmseaswim.com/)
+* [Lancing Sea Swimmers](https://lancingsc.org.uk/sea-swimmers/)
+* [Outdoor Swimming Society](https://www.outdoorswimmingsociety.com/elsewhere/)
+
+I have used the following external links on the website: 
+* Local tides link [Tides Chart](https://www.tideschart.com/Ireland/Connaught/County-Galway/Cleggan-Bay/)
+* Local weather link [YR](https://www.yr.no/en/details/table/2-7838925/Ireland/Connacht/County%20Galway/Renvyle)
+* Swim events link [Get Outdoors](https://www.getoutdoors.ie/swim-events)
+
+### Media
+
+All but one images are taken from Pexels, a free source:
+
+* About Us page image was a photo taken by me.
+* [Landing page image](https://www.pexels.com/photo/man-in-black-shorts-swimming-in-water-9500557/)
+* [Meetup page image](https://www.pexels.com/photo/men-diving-swimming-underwater-6181960/)
+* [Signup page image](https://www.pexels.com/photo/group-of-people-swimming-on-beach-1249545/)
+
+
+### Code
+
+To get started I initially took a lot of the code from the “Love Running” walktrough project. A few things I left almost exactly the same, like the Asterisk wildcard selector, the Contact us page and the Header & Navigation. But for a big part I went with a completely different layout and this challanged me to figure out how to get the website to look the way I had designed. I have used various resources to help me with this:
+
+* Code Institute Slack Channel
+* [Stack overflow](https://stackoverflow.com/)
+* [CSS Tricks](https://css-tricks.com)
+* [Emmet](https://docs.emmet.io/cheat-sheet/)
+* [W3Schools](https://www.w3schools.com/)
+* [Toptal](https://www.toptal.com/front-end/how-to-build-css-only-smart-layouts-with-flexbox)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+#### Templates I have used for inspiration and creating my readme-file:
+
+* [Sample README Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md?plain=1) - Copied the Deployment section and used for general guideline.
+* [Read Me Template Code Institute](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+Used for general guideline.
+* [Plant Factory - crypticCaroline](https://github.com/crypticCaroline/ms1-plantfactory/blob/master/README.md?plain=1) - Especially for the Technologies Used, Testing sections and design sections.
+* [Visit Järbo - ClaudiaInSweden](https://github.com/ClaudiaInSweden/visit-jarbo/blob/main/README.md?plain=1) - General inspiration / guideline.
+* [Mountain Magic Accomodation - Adrianskelton](https://github.com/Code-Institute-Submissions/Projecto1/blob/main/README.md) - Layout and general inspiration / guideline.
+* [GitHub Docs](https://docs.github.com/en)
