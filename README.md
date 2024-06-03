@@ -80,12 +80,21 @@ Images used in the different quizes were selected for their aesthetic appeal and
 
 Several free image sources were used:
 
-* [quiz 1 - 1](https://www.pexels.com/photo/man-in-black-shorts-swimming-in-water-9500557/)
+* [quiz 1 - 1](https://unsplash.com/photos/green-grass-field-under-cloudy-sky-during-daytime-gJQLVTyQfgQ?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 2](https://unsplash.com/photos/green-leafed-trees-during-daytime-oWRVjFQIwAY)
+* [quiz 1 - 3](https://unsplash.com/photos/trees-in-forest-7zg5bnhm2X0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 4](https://unsplash.com/photos/shallow-focus-photography-of-eating-squirrel-tlQdhL5D0co?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 5](https://unsplash.com/photos/a-close-up-of-some-plants-sPrBqjGj7Qo?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 6](https://unsplash.com/photos/an-aerial-view-of-a-tree-in-a-grassy-field-gkkmtA7wUmU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 7](https://unsplash.com/photos/green-trees-near-white-snow-covered-mountain-during-daytime-w-RvCKQtH6Y?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 8](https://unsplash.com/photos/a-close-up-of-a-leaf-with-a-blurry-background-eKo2Xum1Iuc?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 9](https://unsplash.com/photos/brown-tree-trunk-in-close-up-photography-QYvCXztbIAM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 10](https://unsplash.com/photos/selective-photography-of-green-leaf-plant-Rfflri94rs8?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
 
 
-For the background of the website a free image was used to make a pattern.
+For the background of the website a free image was used to make a pattern:
 
-* [image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
+* [Image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
 
 ### Layout / Wireframes
 
