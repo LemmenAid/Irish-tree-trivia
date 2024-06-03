@@ -58,13 +58,14 @@ By creating a fun way for people to learn about the forests of Ireland this webs
 
 ### Typography
 
-* The typography used throughout the site is Noto Sans, imported from google fonts. Noto Sans was chosen because of it’s readability in various sizes and clean design. As a fallback font sans serif is used. The letter spacing has been increased to improve readability in the paragraphs. For the heading even more letter spacing has been applied to make them stand out, as well as a heavier font weight. 
+* The typography used throughout the site is PT Serif for headings, and Helvetica for paragraphs. 
+ PT Serif is imported from google fonts. PT Serif was chosen because for it’s readability in various sizes and to suit the botanical design of the website. As a fallback font Times and serif is used. The fallback font for Helvetica is sans-serif. The letter spacing has been increased slightly to improve readability in the paragraphs. For the headings letter spacing has also been applied, as well as a heavier font weight to make them stand out more. 
 
 The following code has been imported into the top of the style.css
 
-    @import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-![alt text](README-files/noto-sans.png)<br>
+![alt text](README-files/PT-Serif)<br>
 
 ### Call to Action
 
