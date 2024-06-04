@@ -402,8 +402,12 @@ For the background of the website a free image was used to make a pattern:
 
 ### Code
 
-To get started I initially took a lot of the code from the “Love Maths” walktrough project. A few things I left almost exactly the same, like the Asterisk wildcard selector, the Contact us page and the Header & Navigation. But for a big part I went with a completely different layout and this challanged me to figure out how to get the website to look the way I had designed. I have used various resources to help me with this:
+Because I wanted to make a quiz I could not use the walkthrough project "Love Maths" as a start of point. 
+I looked for inspiration online and found a tutorial video (see link below). I adapted the JavaScript code from this video to fit my project. 
+I have used some of the css code for inspration from my previous portfolio project "The Atlantic Dippers".
+I have used various resources to help me with this:
 
+* [How To Make Quiz App Using JavaScript | YouTube](https://youtu.be/PBcqGxrr9g8?feature=shared)
 * Code Institute Slack Channel
 * [Stack overflow](https://stackoverflow.com/)
 * [Emmet](https://docs.emmet.io/cheat-sheet/)
