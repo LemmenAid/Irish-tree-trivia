@@ -123,22 +123,13 @@ For the background of the website a free image was used to make a pattern:
 ### Layout / Wireframes
 
 * The basic design layout of the website has been made using wireframes with Balsamiq. 
-* Responsive design has been used for creating this website. For instance, when a page goes from mobile to larger screens some of the content goes from stacked to lined up.
+* Responsive design has been used for creating this website. 
 
 #### Home Page
 ![alt text](README-files/wireframe-main.png)<br>
 
-#### About Us Page
+#### Quiz Page
 ![alt text](README-files/wireframe-about.png)<br>
-
-#### Meetup Page
-![alt text](README-files/wireframe-meetup.png)<br>
-
-#### Signup Page
-![alt text](README-files/wireframe-signup.png)<br>
-
-#### Mobile View
-![alt text](README-files/mb-all-wireframe.png)<br>
 
 ***
 
@@ -146,21 +137,17 @@ For the background of the website a free image was used to make a pattern:
 
 ### General Features on each page
 
-#### Navigation Bar
+#### Header
 
-* Featured on all three pages, the full responsive navigation bar includes links to the Logo/landing page, about us, meetup times and Sign Up page and is identical in each page to allow for easy navigation.
-* This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+* The header includes the Tree Trivia logo with a link to the homepage. This allows the user to always be able to navigate back to the main page without having to use the ‘back’ button. 
 
-Navigation bar:<br>
-![Nav Bar](README-files/navbar.png)
 
-Dropdown navigation menu:<br>
-![Nav Bar dropdown menu](README-files/navbar-drop.png)
+![Header](README-files/header.png)
 
 #### The Footer
 
-  * Featured on all three pages, the footer section includes the contact information of the club.
-  * The footer section includes links to the relevant social media sites for Atlantic Dippers. The links will open to a new tab to allow easy navigation for the user. 
+  * Featured on all pages, the footer section includes the Tree Trivia logo with a link to the home page.
+  * The footer section includes links to the relevant social media sites for Tree trivia. The links will open to a new tab to allow easy navigation for the user. 
 
 
 ![Footer](README-files/footer.png)
@@ -168,42 +155,24 @@ Dropdown navigation menu:<br>
 
 ### Features by page
 
-#### Landing Page
+#### Main Page
 
-* The landing page introduces the user to Atlantic Dippers with an eye catching photograph to grab their attention.
-* This page includes a call to action button that leads to the “About Us” which allows users to easily find more information about the club. 
-* The landing page also has three buttons to external links that are useful for members of the club. They are on the landing page so frequent users are just one click away from this information, like the local tides, local weather and national swimming events.
+* The landing page starts with a paragraph that gives some information about Ireland's native forests.
+* Underneath the information paragraph there are three buttons that lead to the three different quizes. 
 
-![Landing Page](README-files/landing-page.png)
+![Main Page](README-files/main-page.png)
 
-#### About Page
+#### Quiz Page
 
-* The about page includes a brief outline of what the club is all about.
-* This page also includes some information about the benefits of cold water dipping and swimming.
-* A call to action button is added to the bottom of the page which leads visitors to the Signup page.
+* The quiz page has the same design and lay-out for all three quizes. It has a container for the multiple choice question, the four answer options and an image. 
+* After the user clicks on an option the quiz will show if the answer was correct or incorrect using background colours. After answering the button to the next question appears.
 
-![About Us](README-files/about.png)
-
-#### Meetup Times Page
-
-* This page informs the user about when the meetups will happen and where they will be located.
-* Included on this page is a google map that was embedded via Google Maps with the exact location where the Atlantic Dippers meet up.
-
-![Meetup Times](README-files/meetup.png)
-
-
-#### Sign Up Page
-
-* This page will allow the user to get signed up to the Atlantic Dippers to start their dipping journey with their local community. The user will be asked what level of previous experience they have with open water swimming. The user will be asked to submit their full name and email address. 
-
-![Sign Up](README-files/signup.png)
-
+![Quiz](README-files/quiz.png)
 
 ### Future Implementations
 
-* Because the colour palette features several times throughout the website I would’ve liked to  have set a variable in the code for this, so it would be easier to change the palette if necessary.
-* A page about water safety.
-* A dedicated contact page.
+* A page with useful links to other websites that can give informatioon about Ireland's trees. For instance non-profit organisations that do re-foresting projects.
+* A page that gives visitors information on how to succesfully plant and grow trees in their own garden.
 
 *** 
 
@@ -211,16 +180,16 @@ Dropdown navigation menu:<br>
 
 * HTML5 - Mark-up language using semantic structure.
 * CCS3 - Cascading stylesheet used to style the website.
+* JavaScript - used to create an interactive website.
 * Gitpod.io - For writing the code. Using the command line for committing and pushing to Git Hub
 * GitHub - Used to host repository 
 
 ### Design
-* Noto Sans Font from [Google Fonts](https://fonts.google.com/) 
+* PT Serif Font from [Google Fonts](https://fonts.google.com/) 
 * Icons from [Font Awesome](https://fontawesome.com/)
 * Favicon [Favicon](https://favicon.io)
 * Wireframes [Balsamiq wireframe](https://balsamiq.com/)
-* Google maps embed from Google inc. [Google Maps](https://www.google.com/maps)
-* Images from [Pexels](https://www.pexels.com/)
+* Images from several sources, underwhich [Pexels](https://www.pexels.com/)
 * Colour palette generator [Coolors](https://coolors.co/)
 
 ### Testing
@@ -240,18 +209,15 @@ The website has been tested by myself and several of my friends for accessibilit
 | Feature | Testing Performed | Expected Outcome | Pass/Fail |
 | --- | --- | --- | --- |
 |  |  |  |  |
-| Atlantic Dipper Logo and Title | Click Logo and Title | When clicked the user will be redirected to the home page. | PASS |
+| Irish Tree Trivia Logo and Title | Click Logo and Title | When clicked the user will be redirected to the home page. | PASS |
 | Internal Links | Click on internal links | Internal links redirect to where they should. | PASS |
 | External Links | Click on external links | External links go where they should and open in separate tab. | PASS |
 | Social Media Icons | Click Icons | When clicked the user will be redirected to the appropriate social media pages in a separate tab. | PASS |
-| Google Map | Click on Map | Map should be interactive when clicked on. | PASS |
-| Form Dump | Submit form with all fields filled out | Form input goes to form dump and form dumps shows data from all form fields. | PASS |
-| Signup form | Click signup button while leaving form unfillled | Required fields are validated accordingly. | PASS |
-| Signup form email | Click signup button while not including the @ in the email field | Email field is validated for format. | PASS |
+| Quiz function | Answer all questions in quiz and get score | User input returns total score | PASS |
 
 
 ### Browser Compatibility
-* The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
+* The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / MacBook Air / MacBook Pro / HP laptop.
 * The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
 
 ### Responsivness
@@ -291,22 +257,17 @@ The website has been tested by myself and several of my friends for accessibilit
 
 After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. 
 
-#### Landing Page
+#### Main Page
 
-![alt text](README-files/lh-landing.png)
+![alt text](README-files/lh-main.png)
 
-#### About Us Page
+#### quiz 1 Page
 
-![alt text](README-files/lh-about.png)
+![alt text](README-files/lh-quiz1.png)
 
-#### Meetup Page
+#### Score Page
 
-![alt text](README-files/lh-meetup.png)
-
-#### Signup Page
-
-![alt text](README-files/lh-signup.png)
-
+![alt text](README-files/lh-score.png)
 
 ***
 
@@ -371,9 +332,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Credits
 
-* I would like to thank Brian Macharia for his great mentor support and guidance - helping me through the process of building my first ever website.
+* I would like to thank Brian Macharia for his great mentor support and guidance - helping me through the process of building my first ever interactive website.
 * My facilitator Amy from Code Institute for supporting us through our first project and giving us great tips and resources for learning tools, and her feedback during the weekly stand-ups.
-* Tutor support at Code Institute for their support when I got stuck with CodeAnywhere (and changed over to GitPod).
 * At last I would like to give thanks to my friends for taking the time to test the website and giving me great feedback.
 
 ### Content
@@ -397,27 +357,63 @@ I have used the following external links on the website:
 
 ### Media
 
-All but one images are taken from Pexels, a free source:
+All but one images are taken from free sources. You can find the links below:
 
-* About Us page image was a photo taken by me.
-* [Landing page image](https://www.pexels.com/photo/man-in-black-shorts-swimming-in-water-9500557/)
-* [Meetup page image](https://www.pexels.com/photo/men-diving-swimming-underwater-6181960/)
-* [Signup page image](https://www.pexels.com/photo/group-of-people-swimming-on-beach-1249545/)
+QUIZ 1
+* [quiz 1 - 1](https://unsplash.com/photos/green-grass-field-under-cloudy-sky-during-daytime-gJQLVTyQfgQ?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 2](https://unsplash.com/photos/green-leafed-trees-during-daytime-oWRVjFQIwAY)
+* [quiz 1 - 3](https://unsplash.com/photos/trees-in-forest-7zg5bnhm2X0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 4](https://unsplash.com/photos/shallow-focus-photography-of-eating-squirrel-tlQdhL5D0co?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 5](https://unsplash.com/photos/a-close-up-of-some-plants-sPrBqjGj7Qo?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 6](https://unsplash.com/photos/an-aerial-view-of-a-tree-in-a-grassy-field-gkkmtA7wUmU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 7](https://unsplash.com/photos/green-trees-near-white-snow-covered-mountain-during-daytime-w-RvCKQtH6Y?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 8](https://unsplash.com/photos/a-close-up-of-a-leaf-with-a-blurry-background-eKo2Xum1Iuc?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 9](https://unsplash.com/photos/brown-tree-trunk-in-close-up-photography-QYvCXztbIAM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 1 - 10](https://unsplash.com/photos/selective-photography-of-green-leaf-plant-Rfflri94rs8?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+
+QUIZ 2
+* [quiz 2 - 1](https://www.pexels.com/photo/branch-of-alder-with-dry-cones-4148765/)
+* quiz 2 - 2 photo taken by me.
+* [quiz 2 - 3](https://unsplash.com/photos/green-tree-under-blue-sky-during-daytime-HZnv85PAjsw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 2 - 4](https://unsplash.com/photos/a-close-up-of-two-white-flowers-on-a-tree-branch-nHQLOS0h1CI?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 2 - 5](https://www.pexels.com/photo/white-hawthorn-blossoms-16939815/)
+* [quiz 2 - 6](https://unsplash.com/photos/purple-round-fruit-in-close-up-photography-qSmomJCEUiA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 2 - 7](https://unsplash.com/photos/macro-shot-photography-of-red-fruits-O9PAfIVVvQc?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 2 - 8](https://unsplash.com/photos/brown-squirrel-on-green-pine-tree-vLwYNZ_kPjk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 2 - 9](https://unsplash.com/photos/a-bunch-of-red-berries-are-growing-on-a-tree-vmxtlEFHl14?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 2 - 10](https://unsplash.com/photos/a-bunch-of-white-flowers-that-are-in-the-grass-odF3wlwh9nE?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+
+QUIZ 3
+* [quiz 3 - 1](https://unsplash.com/photos/green-trees-on-forest-during-daytime-RJdt6wGw4wk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 2](https://unsplash.com/photos/a-forest-at-night-hfVlwwbko_o?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 3](https://unsplash.com/photos/scenery-of-a-waterfall-5VgNytqbgfg?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 4](https://unsplash.com/photos/a-path-in-the-middle-of-a-forest-with-lots-of-trees-JWa5jZ1LkJY?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 5](https://unsplash.com/photos/aerial-photography-of-mountain-RVvr_g5-u3M?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 6](https://unsplash.com/photos/birds-eye-view-photography-of-trees-and-body-of-water-mawU2PoJWfU)
+* [quiz 3 - 7](https://unsplash.com/photos/a-group-of-trees-in-the-middle-of-a-forest-jwtxxaA_iLA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 8](https://unsplash.com/photos/selective-focus-photography-of-green-plant-r2WY7FHrlvg?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 9](https://unsplash.com/photos/concrete-castle-on-cliff-near-body-of-water-during-daytime-OsZJaYdAMw0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* [quiz 3 - 10](https://unsplash.com/photos/brown-road-in-forest-during-daytime-L505cPnmIds?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+
+For the background of the website a free image was used to make a pattern:
+
+* [Image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
 
 
 ### Code
 
-To get started I initially took a lot of the code from the “Love Running” walktrough project. A few things I left almost exactly the same, like the Asterisk wildcard selector, the Contact us page and the Header & Navigation. But for a big part I went with a completely different layout and this challanged me to figure out how to get the website to look the way I had designed. I have used various resources to help me with this:
+To get started I initially took a lot of the code from the “Love Maths” walktrough project. A few things I left almost exactly the same, like the Asterisk wildcard selector, the Contact us page and the Header & Navigation. But for a big part I went with a completely different layout and this challanged me to figure out how to get the website to look the way I had designed. I have used various resources to help me with this:
 
 * Code Institute Slack Channel
 * [Stack overflow](https://stackoverflow.com/)
-* [CSS Tricks](https://css-tricks.com)
 * [Emmet](https://docs.emmet.io/cheat-sheet/)
 * [W3Schools](https://www.w3schools.com/)
-* [Toptal](https://www.toptal.com/front-end/how-to-build-css-only-smart-layouts-with-flexbox)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* 
 
 #### Templates I have used for inspiration and creating my readme-file:
+
+I have used the readme file that I created for my first portfolio project to write this readme, for which I used the links below as a guide and inspiration.
 
 * [Sample README Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md?plain=1) - Copied the Deployment section and used for general guideline.
 * [Read Me Template Code Institute](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
