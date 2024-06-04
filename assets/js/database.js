@@ -646,7 +646,7 @@ const database = [{
 ];
 
 //get the main element
-const quizPageElement = document.getElementsByClassName('quiz-page');
+const quizPageElement = document.getElementById('quiz-page');
 
 function loadQuiz(quizNumber) {
     quizPageElement.innerHTML = "";
@@ -704,5 +704,5 @@ function loadQuiz(quizNumber) {
     quizDiv.appendChild(nextButton);
 
 
-    
+
 }
