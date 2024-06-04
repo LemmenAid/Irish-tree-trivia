@@ -126,10 +126,10 @@ For the background of the website a free image was used to make a pattern:
 * Responsive design has been used for creating this website. 
 
 #### Home Page
-![alt text](README-files/wireframe-main.png)<br>
+![alt text](README-files/wireframe-mobile.png)<br>
 
 #### Quiz Page
-![alt text](README-files/wireframe-about.png)<br>
+![alt text](README-files/wireframe-desktop.png)<br>
 
 ***
 
