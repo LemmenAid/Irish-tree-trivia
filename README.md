@@ -208,7 +208,6 @@ The website has been tested by myself and several of my friends for accessibilit
 
 | Feature | Testing Performed | Expected Outcome | Pass/Fail |
 | --- | --- | --- | --- |
-|  |  |  |  |
 | Irish Tree Trivia Logo and Title | Click Logo and Title | When clicked the user will be redirected to the home page. | PASS |
 | Internal Links | Click on internal links | Internal links redirect to where they should. | PASS |
 | External Links | Click on external links | External links go where they should and open in separate tab. | PASS |
@@ -273,10 +272,8 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 
 ## Solved Bugs
 
-* During testing for Accessibility I realised that the background colour had to be changed for better readability. I changed it to a lighter hue and that was an improvement.
-* During testing, I got the feedback that some of my font sizes were too small. I increased the font size in a lot of places, like the header, footer but also main content.
-* During testing I changed the colour from orange to black for the titles in my main content, this made it a lot more readable.
-* During testing it was discovered that in the Signup form the field for the experience question was an input field and therefore only took a single line answer. I changed the field from an input field to a textarea field to solve this.
+* During testing I realised there was a shift in the page after answering a question. This was because of the container box that would grow bigger due to the next-button appearing. I fixed this by making the container, image and question size fixed.
+* 
 
 ***
 
