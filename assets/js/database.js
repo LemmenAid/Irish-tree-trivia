@@ -653,40 +653,37 @@ function loadQuiz(quizNumber) {
 
     const questions = database[quizNumber].questions;
     const title = database[quizNumber].title;
-    const answers = database[quizNumber].answers;
-    const image = database[quizNumber].image;
-
+    const image = database[quizNumber].image; // ??
+ 
     //Create and inject HTML elements
 
     // Create the quiz div
     const quizDiv = document.createElement("div");
     quizDiv.className = "quiz";
-    mainElement.appendChild(quizDiv);
+    quizPageElement.appendChild(quizDiv);
     
     // Create Heading
     const quizHeading = document.createElement("h1");
     quizHeading.textContent = title;
     quizHeading.classList = "quiz-page";
-
-    quizPageElement.appendChild(quizHeading)
+    quizPageElement.appendChild(quizHeading);
 
     // Create question image
     const questionImage = document.createElement("img");
     questionImage.id = "question-image";
-    questionImage.src = image; //?????
-    questionImage.alt = "Question Image";
-    quizDiv.appendChild(questionImage);
+    questionImage.image = image; //????
+    quizPageElement.appendChild(questionImage);
 
     // Create question h2 element
     const questionElement = document.createElement("h2");
     questionElement.id = "question";
     questionElement.textContent = questions;
-    quizDiv.appendChild(questionElement);
+    quizPageElement.appendChild(questionElement);
 
     // Create answer buttons div
     const answerButtonsDiv = document.createElement("div");
     answerButtonsDiv.id = "answer-buttons";
-    quizDiv.appendChild(answerButtonsDiv);
+    quizPageElement.appendChild(answerButtonsDiv);
 
     // Create answer buttons
     for (let i = 0; i < questions.length; i++) {
@@ -701,8 +698,7 @@ function loadQuiz(quizNumber) {
     const nextButton = document.createElement("button");
     nextButton.id = "next-btn";
     nextButton.textContent = "Next";
-    quizDiv.appendChild(nextButton);
-
+    quizPageElement.appendChild(nextButton);
 
 
 }
