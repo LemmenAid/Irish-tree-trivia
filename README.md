@@ -340,20 +340,16 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Idea and content are developed by myself. 
 
-For the text about the health benefits of cold water dipping I have used several sources:
-* [Healtline](https://www.healthline.com/health/cold-water-therapy)
-* [Everyday Health](https://www.everydayhealth.com/wellness/possible-health-benefits-to-cold-water-therapy/)
-* [Harpers Bazaar](https://www.harpersbazaar.com/beauty/health/a43116150/best-cold-plunge-benefits/)
+For the intro text about Ireland's native forest I have used several sources:
+* [Tree Council Ireland](https://www.treecouncil.ie/native-irish-trees)
+* [Down To Earth](https://www.downtoearth.org.in/blog/forests/ireland-has-lost-almost-all-of-its-native-forests-here-s-how-to-bring-them-back-87926)
 
-I have taken inspiration from the following swim club websites for the layout and some of the text:
-* [Wexford Masters Seaswimming Club](https://wexmseaswim.com/)
-* [Lancing Sea Swimmers](https://lancingsc.org.uk/sea-swimmers/)
-* [Outdoor Swimming Society](https://www.outdoorswimmingsociety.com/elsewhere/)
 
-I have used the following external links on the website: 
-* Local tides link [Tides Chart](https://www.tideschart.com/Ireland/Connaught/County-Galway/Cleggan-Bay/)
-* Local weather link [YR](https://www.yr.no/en/details/table/2-7838925/Ireland/Connacht/County%20Galway/Renvyle)
-* Swim events link [Get Outdoors](https://www.getoutdoors.ie/swim-events)
+I have taken information from the following websites to create the multiple choice questions:
+* [Woodland Trust](https://www.woodlandtrust.org.uk/)
+* [The Conversation](https://theconversation.com/ireland-has-lost-almost-all-of-its-native-forests-heres-how-to-bring-them-back-195511)
+* [Teagasc](https://www.teagasc.ie/crops/forestry/advice/general-topics/history-of-forestry-in-ireland/)
+* [Irish Wild Flowers](https://www.irishwildflowers.ie/AZ-more.html)
 
 ### Media
 
