@@ -22,7 +22,7 @@ body {
   font-family: helvetica, sans-serif;
 
   background: url("../images/background_pattern.png");
-  background-position: center; 
+  background-position: center;
   background-color: #7d978c;
 }
 
@@ -57,8 +57,9 @@ header span {
 header span:hover {
   color: #83ae90;
 }
+
 .home-page {
-  background-color:#82ad90f2;
+  background-color: #82ad90f2;
   width: 85%;
   max-width: 900px;
   margin: 60px auto;
@@ -88,8 +89,10 @@ header span:hover {
 }
 
 .button:hover {
-  background-color: #4e875f;;
-  color: #fff;;
+  background-color: #4e875f;
+  ;
+  color: #fff;
+  ;
 }
 
 .intro-text {
@@ -100,21 +103,33 @@ header span:hover {
 
 
 /* Styles for quiz area */
-.app {
+.quiz-page {
   background: #82ad90f2;
   width: 90%;
   max-width: 600px;
   margin: 100px auto;
   border-radius: 3px;
   padding: 30px;
+  height: 810px;
 }
 
-.app h1 {
+.quiz-page h1 {
   font-size: 1.3rem;
   color: #212121;
   font-weight: 600;
   border-bottom: 1px solid #333;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  }
+
+#question-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 3px;
+  width: 230px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .quiz {
@@ -129,6 +144,7 @@ header span:hover {
   font-family: "PT Serif", Times, serif;
   margin-bottom: 5px;
   margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .btn {
@@ -177,14 +193,6 @@ header span:hover {
 
 .incorrect {
   background: #dabc93;
-}
-
-#question-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem;
-  border-radius: 3px;
 }
 
 
@@ -258,4 +266,21 @@ header span:hover {
 
 .social-media a:hover {
   color: #83ae90;
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+  .quiz-page {
+    height: 850px;
+  }
+
+  #question-image {
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  
 }
