@@ -1,6 +1,4 @@
-/**
- * Question / answer Array Quiz 1
- */
+// Question / answer Array Quiz 1
 const questions = [{
         image: "assets/images/q1_image-min.jpg",
         question: "How much of Ireland is covered with native forest?",

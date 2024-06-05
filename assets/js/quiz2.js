@@ -1,4 +1,5 @@
- const questions = [{
+// Question / answer Array Quiz 2
+const questions = [{
         image: "assets/images/q2_1.jpg",
         question: "The wood of this tough tree doesn't rot when waterlogged, instead turning stronger and harder. Male catkins are yellow and dangly, and female catkins are green and oval-shaped..",
         answers: [{

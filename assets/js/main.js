@@ -1,3 +1,4 @@
+// variables
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -64,14 +65,14 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
-    /* Shows correct answer after answering and disables answer options */
+    // Shows correct answer after answering and disables answer options
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
         button.disabled = true;
     });
-    /* Show the next button after answering */
+    // Show the next button after answering
     nextButton.style.display = "block";
 }
 
@@ -108,7 +109,8 @@ function showScore() {
     questionElement.innerHTML = message;
     nextButton.innerHTML = "Play again";
     nextButton.style.display = "block";
-        
+    
+    // Add 'play other quiz' button
     const otherQuizButton = document.createElement("button");
     otherQuizButton.textContent = "Play Other Quiz";
     otherQuizButton.id = "next-btn";

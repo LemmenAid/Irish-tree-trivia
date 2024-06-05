@@ -1,3 +1,4 @@
+// Question / answer Array Quiz 3
 const questions = [{
         image: "assets/images/q3_1.jpg",
         question: "Trom",
