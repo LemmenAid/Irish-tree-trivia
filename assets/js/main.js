@@ -1,8 +1,10 @@
+
 // variables
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const lastButtonsElement = document.getElementById("last-buttons");
+const header = document.querySelector("header");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -144,3 +146,15 @@ nextButton.addEventListener("click", () => {
 });
 
 startQuiz();
+
+
+// Add audio element to quiz pages
+let audio = document.createElement("audio");
+audio.id = "myAudio";
+audio.src = "assets/audio/bird-song.wav";
+audio.controls = true;
+audio.loop = true;
+audio.autoplay = false;
+
+// Add the element to the header
+header.appendChild(audio);
