@@ -1,6 +1,7 @@
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const lastButtonsElement = document.getElementById("last-buttons");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -18,7 +19,7 @@ function startQuiz() {
 
 /**
  * Shows the question with answer options to the player
- */ 
+ */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -107,6 +108,16 @@ function showScore() {
     questionElement.innerHTML = message;
     nextButton.innerHTML = "Play again";
     nextButton.style.display = "block";
+        
+    const otherQuizButton = document.createElement("button");
+    otherQuizButton.textContent = "Play Other Quiz";
+    otherQuizButton.id = "next-btn";
+    otherQuizButton.style.display = "block";
+    
+    otherQuizButton.addEventListener("click", () => {
+        window.location.href = "https://lemmenaid.github.io/Irish-tree-trivia/index.html"
+    });
+    lastButtonsElement.appendChild(otherQuizButton);
 }
 
 /**
