@@ -32,7 +32,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 12vh;
+  min-height: 14vh;
   background: #c3decbed;
   border-radius: 0 0 2px 2px;
   box-shadow: 0 1px 1px #3a3a3a;
@@ -46,11 +46,11 @@ header span {
   height: 10rem;
   border-radius: 3px;
   font-family: "PT Serif", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
-  color: #212121;
+  letter-spacing: 1.6px;
+  color: #2a523c;
   cursor: pointer;
 }
 
@@ -58,8 +58,25 @@ header span:hover {
   color: #83ae90;
 }
 
+
+
+#myAudio::-webkit-media-controls-panel {
+  background-color: #518b71cd;
+}
+#myAudio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+#myAudio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+#myAudio::-webkit-media-controls-playback-rate {
+  display: none;
+}
+
 #myAudio {
-  padding: 10px; 
+  padding-top: 15px;
+  width: 180px;
+
 }
 
 .home-page {
@@ -207,10 +224,8 @@ header span:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  color: #212121;
   padding: 2.5rem;
   padding-top: 4rem;
-  font-size: 0.7rem;
   background-color: #c4dac4f2;
 }
 
@@ -222,23 +237,19 @@ header span:hover {
   flex: 1;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 1.2px;
-  color: #212121;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .footer-logo span {
-  margin: 0;
   letter-spacing: 2px;
   font-family: "PT Serif", Times, serif;
 }
 
 .footer-logo a {
   text-decoration: none;
-  color: #212121;
-  font-size: 1rem;
+  color: #2e6c51;
+  font-size: 1.1rem;
 }
 
 .footer-logo a:hover {
@@ -251,11 +262,9 @@ header span:hover {
 }
 
 #social-networks {
-  text-align: center;
   display: inline-block;
   list-style-type: none;
   margin-left: 1.5rem;
-  color: #212121;
   margin-right: 15px;
 }
 
@@ -266,7 +275,7 @@ header span:hover {
 }
 
 .social-media a {
-  color: #212121;
+  color: #2e6c51;
 }
 
 .social-media a:hover {

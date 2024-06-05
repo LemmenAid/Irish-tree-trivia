@@ -155,6 +155,7 @@ audio.src = "assets/audio/bird-song.wav";
 audio.controls = true;
 audio.loop = true;
 audio.autoplay = false;
+audio.controlsList = "nodownload noplaybackrate";
 
 // Add the element to the header
 header.appendChild(audio);
