@@ -106,14 +106,15 @@ header span:hover {
   background: #82ad90f2;
   width: 90%;
   max-width: 600px;
-  margin: 100px auto;
+  margin: 60px auto;
   border-radius: 3px;
   padding: 30px;
   height: 810px;
 }
 
 .quiz-page h1 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
   color: #212121;
   font-weight: 600;
   border-bottom: 1px solid #333;
@@ -136,8 +137,8 @@ header span:hover {
 }
 
 .quiz h2 {
-  font-size: 1.1rem;
-  letter-spacing: 0.6px;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
   color: #212121;
   font-weight: 500;
   font-family: "PT Serif", Times, serif;
@@ -273,6 +274,7 @@ header span:hover {
 
   .quiz-page {
     height: 850px;
+    margin: 100px auto;
   }
 
   #question-image {
