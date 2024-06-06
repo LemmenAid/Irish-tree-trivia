@@ -653,7 +653,7 @@ function loadQuiz(quizNumber) {
 
     const questions = database[quizNumber].questions;
     const title = database[quizNumber].title;
-    const image = database[quizNumber].image; // ??
+    const image = database[quizNumber].image; // ????
  
     //Create and inject HTML elements
 
@@ -671,7 +671,7 @@ function loadQuiz(quizNumber) {
     // Create question image
     const questionImage = document.createElement("img");
     questionImage.id = "question-image";
-    questionImage.image = image; //????
+    questionImage.src = image; //????
     quizPageElement.appendChild(questionImage);
 
     // Create question h2 element
@@ -699,6 +699,4 @@ function loadQuiz(quizNumber) {
     nextButton.id = "next-btn";
     nextButton.textContent = "Next";
     quizPageElement.appendChild(nextButton);
-
-
 }
