@@ -401,6 +401,7 @@ I have used some of the css code for inspration from my previous portfolio proje
 I have used various resources to help me with this:
 
 * [How To Make Quiz App Using JavaScript | YouTube](https://youtu.be/PBcqGxrr9g8?feature=shared)
+* [Build a Quiz App with JavaScript | YouTube](https://youtu.be/riDzcEQbX6k?si=2UDt5POf_5t2RH9x)
 * Code Institute Slack Channel
 * [Stack overflow](https://stackoverflow.com/)
 * [Emmet](https://docs.emmet.io/cheat-sheet/)
