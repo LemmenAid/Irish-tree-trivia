@@ -8,6 +8,18 @@ const header = document.querySelector("header");
 let currentQuestionIndex = 0;
 let score = 0;
 
+// Create 'play other quiz' button with link to main page
+const otherQuizButton = document.createElement("button");
+otherQuizButton.textContent = "Play Other Quiz";
+otherQuizButton.id = "next-btn";
+
+otherQuizButton.addEventListener("click", () => {
+    window.location.href = "https://lemmenaid.github.io/Irish-tree-trivia/index.html"
+});
+lastButtonsElement.appendChild(otherQuizButton);
+
+
+
 /**
  * Starts the quiz  
  */
@@ -115,17 +127,6 @@ function showScore() {
     // Show other Quiz button after completing quiz
     otherQuizButton.style.display = "block";
 }
-
-// Create 'play other quiz' button with link to main page
-const otherQuizButton = document.createElement("button");
-otherQuizButton.textContent = "Play Other Quiz";
-otherQuizButton.id = "next-btn";
-
-otherQuizButton.addEventListener("click", () => {
-    window.location.href = "https://lemmenaid.github.io/Irish-tree-trivia/index.html"
-});
-lastButtonsElement.appendChild(otherQuizButton);
-
 
 /**
  * Shows next question, unless all questions are done, then show score
