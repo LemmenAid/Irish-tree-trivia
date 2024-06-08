@@ -264,6 +264,14 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 
 ![alt text](README-files/lh-quiz1.png)
 
+#### quiz 3 Page
+
+![alt text](README-files/lh-quiz2.png)
+
+#### quiz 3 Page
+
+![alt text](README-files/lh-quiz3.png)
+
 #### Score Page
 
 ![alt text](README-files/lh-score.png)
