@@ -254,7 +254,7 @@ The website has been tested by myself and several of my friends for accessibilit
 
 ### Lighthouse
 
-After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. 
+After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. Overall I am happy with the outcome. However, the performance of the quiz pages varies as you can see in the three examples below. I have looked into increasing the performance by optimising the LPC. Preloading all images for the ten questions would probably not be an efficient solution, as it could potentially increase the overall load time. A more effective solution could be to only preload the next question while the user is answering the current question. 
 
 #### Main Page
 
