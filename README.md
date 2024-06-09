@@ -116,7 +116,7 @@ QUIZ 3
 * [quiz 3 - 9](https://unsplash.com/photos/concrete-castle-on-cliff-near-body-of-water-during-daytime-OsZJaYdAMw0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
 * [quiz 3 - 10](https://unsplash.com/photos/brown-road-in-forest-during-daytime-L505cPnmIds?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
 
-For the background of the website a free image was used to make a pattern:
+For the background of the website a free image was used to create a pattern:
 
 * [Image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
 
@@ -140,9 +140,12 @@ For the background of the website a free image was used to make a pattern:
 #### Header
 
 * The header includes the Tree Trivia logo with a link to the homepage. This allows the user to always be able to navigate back to the main page without having to use the ‘back’ button. 
-
+* On the quiz pages, the header includes an audio bar where users can choose to listen to birds singing in the forest.
 
 ![Header](README-files/header.png)
+
+With audio bar:
+![Header](README-files/header-audio.png)
 
 #### The Footer
 
@@ -167,7 +170,18 @@ For the background of the website a free image was used to make a pattern:
 * The quiz page has the same design and lay-out for all three quizes. It has a container for the multiple choice question, the four answer options and an image. 
 * After the user clicks on an option the quiz will show if the answer was correct or incorrect using background colours. After answering the button to the next question appears.
 
-![Quiz](README-files/quiz.png)
+Right Answer:
+![Quiz](README-files/quiz-page.png) 
+
+Wrong Answer:
+![Quiz](README-files/quiz-page-wronganswer.png)
+
+#### Score Page
+
+* At the end of the quiz the score is displayed and the user can choose between two option buttons:
+play again or choose a different quiz. 
+
+![Score](README-files/score-page.png)
 
 ### Future Implementations
 
