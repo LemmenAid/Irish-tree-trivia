@@ -121,10 +121,15 @@ header span:hover {
 
 .intro-text {
   letter-spacing: 1px;
-  padding: 25px 15px;
+  padding: 20px 15px;
   align-self: flex-start;
 }
 
+.read-more a {
+  text-decoration: none;
+  color: #1b4533;
+  letter-spacing: 1px;
+}
 
 /* Styles for quiz area */
 .quiz-page {
