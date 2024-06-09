@@ -16,7 +16,7 @@ otherQuizButton.textContent = "Play Other Quiz";
 otherQuizButton.id = "next-btn";
 
 otherQuizButton.addEventListener("click", () => {
-    window.location.href = "https://lemmenaid.github.io/Irish-tree-trivia/index.html";
+    window.location.href = "index.html";
 });
 lastButtonsElement.appendChild(otherQuizButton);
 

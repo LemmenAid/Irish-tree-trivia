@@ -296,6 +296,7 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 
 * During testing I realised there was a shift in the page after answering a question. This was because of the container box that would grow bigger due to the next-button appearing. I fixed this by making the container, image and question size fixed.
 * During testing it came up that in different browsers the audio bar looks different. In the Safari browser the audio bar was reduced to just a 'play' button - by increasing the width in css this was resolved and now in all tested browsers the audio bar is visible.
+* changed the url of the "choose other quiz button" in the main.js file for portability from full url to only "index.html".
 
 ***
 
