@@ -129,6 +129,11 @@ header span:hover {
   text-decoration: none;
   color: #1b4533;
   letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.read-more a:hover {
+  font-weight: 600;
 }
 
 /* Styles for quiz area */
