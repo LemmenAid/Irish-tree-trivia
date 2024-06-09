@@ -209,6 +209,7 @@ play again or choose a different quiz.
 ### Testing
 * Testing validity of HTML with [Validator](https://validator.w3.org/) 
 * Testing validity of CSS with [CSS Validator](https://validator.w3.org/)
+* Testing validity of JavaScript with [JS Hint](https://jshint.com/)
 * Checking responsive nature with [UI](https://ui.dev/amiresponsive?/)
 * Testing performance and accessibility with DEV Tools - Lighthouse
 
