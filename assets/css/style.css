@@ -63,12 +63,15 @@ header span:hover {
 #myAudio::-webkit-media-controls-panel {
   background-color: #518b71cd;
 }
+
 #myAudio::-webkit-media-controls-current-time-display {
   display: none;
 }
+
 #myAudio::-webkit-media-controls-time-remaining-display {
   display: none;
 }
+
 #myAudio::-webkit-media-controls-playback-rate {
   display: none;
 }
@@ -141,7 +144,7 @@ header span:hover {
   font-weight: 600;
   border-bottom: 1px solid #333;
   padding-bottom: 20px;
-  }
+}
 
 #question-image {
   max-width: 100%;
@@ -297,5 +300,5 @@ header span:hover {
     object-fit: cover;
     object-position: bottom;
   }
-  
+
 }

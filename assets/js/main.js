@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // variables
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -14,7 +16,7 @@ otherQuizButton.textContent = "Play Other Quiz";
 otherQuizButton.id = "next-btn";
 
 otherQuizButton.addEventListener("click", () => {
-    window.location.href = "https://lemmenaid.github.io/Irish-tree-trivia/index.html"
+    window.location.href = "https://lemmenaid.github.io/Irish-tree-trivia/index.html";
 });
 lastButtonsElement.appendChild(otherQuizButton);
 

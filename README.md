@@ -228,29 +228,28 @@ The website has been tested by myself and several of my friends for accessibilit
 #### HTML
 * The [W3C](https://validator.w3.org/) Markup Validator was used to validate every page of the project to check that there were no syntax errors made in the HTML code.
 
-* There was one error returned about an inline style attribute:
+* There was one error returned about a bad value for the img src attribute:
 
 ![alt text](README-files/html-error.png)
 
-* I removed the inline style attribute and solved it with CSS. After that no errors were returned for any of the pages.
+* I added a valid value for the src attribute and after that no errors were returned for any of the HTML pages.
 
 ![alt text](README-files/html-pass.png)
 
 #### CSS
-* The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project.
-
-* Two value errors were returned:<br>
-
-![alt text](README-files/css-errors.png)
-
-* After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
+* The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project. No errors were returned.<br>
 
 ![alt text](README-files/css-pass.png)
 
-* There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.<br>
+* There were still a few warnings displayed that were related to vendor-specific extensions in my CSS code that I used to style the audio bar. I have taken the suggestions into consideration and have decided that for this project I am okay with that the audio bar will look slightly different across different browsers. So I will leave the CSS code as is.<br>
 
 ![alt text](README-files/css-warnings.png)
 
+
+#### JavaScript
+* The [JS Hint](https://jshint.com) Validator was used to validate the JavaScript code and after inserting /*jshint esversion 6 */ at the top of the file no errors were returned. It only reported one undefined variable (questions), but this is because the variable is defined in the other js files.
+
+![alt text](README-files/js-after.png)
 
 ### Lighthouse
 
