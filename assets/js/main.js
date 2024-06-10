@@ -10,6 +10,7 @@ const header = document.querySelector("header");
 let currentQuestionIndex = 0;
 let score = 0;
 
+
 // Create 'play other quiz' button with link to main page
 const otherQuizButton = document.createElement("button");
 otherQuizButton.textContent = "Play Other Quiz";
@@ -19,7 +20,6 @@ otherQuizButton.addEventListener("click", () => {
     window.location.href = "index.html";
 });
 lastButtonsElement.appendChild(otherQuizButton);
-
 
 
 /**
@@ -42,7 +42,7 @@ function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    questionElement.innerHTML = "Question " + questionNo + "/10. " + currentQuestion.question;
 
     // Set the image source
     const questionImage = document.getElementById("question-image");
