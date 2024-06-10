@@ -223,11 +223,24 @@ The website has been tested by myself and several of my friends for accessibilit
 
 | Feature | Testing Performed | Expected Outcome | Pass/Fail |
 | --- | --- | --- | --- |
-| Irish Tree Trivia Logo and Title | Click Logo and Title | When clicked the user will be redirected to the home page. | PASS |
+| Link Irish Tree Trivia Title header | Click Title | When clicked the user will be redirected to the home page. | PASS |
 | Internal Links | Click on internal links | Internal links redirect to where they should. | PASS |
 | External Links | Click on external links | External links go where they should and open in separate tab. | PASS |
 | Social Media Icons | Click Icons | When clicked the user will be redirected to the appropriate social media pages in a separate tab. | PASS |
-| Quiz function | Answer all questions in quiz and get score | User input returns total score | PASS |
+| Quiz function | Choose quiz to play | button to chosen quiz leads to appropriate quiz | PASS |
+| Score function | Answer all questions in quiz and get score | After answering all questions, quiz returns total score | PASS |
+| Quiz question numbers | reading all quiz questions | the question numbers are correctly numbered | PASS |
+| Quiz question Images | checking all the images for each question | the image that appears for each question is correct and as intended | PASS |
+| hover answer buttons | checking the hover effect for answer buttons | when hovered over answer options background colour changes to dark grey | PASS |
+| answer buttons | checking feedback answer | after answering quiz show correct answer with green background and incorrect answer with red background | PASS |
+| answer buttons deactivated | checking if you can click on other answer after answering | after answering it should not be possible to change your answer and click on other option | PASS |
+| next button | checking next button after answering questions | after answering the button to go the next question should appear | PASS |
+| play again button | checking play again button end of quiz | after answering all the questions, the play again button should appear | PASS |
+| play other quiz button | checking play other quiz button after answering all questions | after answering all questions the play other quiz button should appear | PASS |
+
+
+
+
 
 
 ### Browser Compatibility
