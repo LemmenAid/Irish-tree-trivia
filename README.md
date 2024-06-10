@@ -365,8 +365,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ## Credits
 
 * I would like to thank Brian Macharia for his great mentor support and guidance - helping me through the process of building my first ever interactive website.
-* My facilitator Amy from Code Institute for supporting us through our first project and giving us great tips and resources for learning tools, and her feedback during the weekly stand-ups.
-* At last I would like to give thanks to my friends for taking the time to test the website and giving me great feedback.
+* My facilitator Amy from Code Institute for supporting us through our second project and giving us great tips and resources for learning tools, and her feedback during the weekly stand-ups.
+* At last I would like to give thanks to my friends and family for taking the time to test the website and giving me great feedback.
 
 ### Content
 
@@ -429,26 +429,27 @@ For the background of the website a free image was used to make a pattern:
 * [Image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
 
 <br>
-For the sound a free source was used:
+For the bird sound a free source was used:
 
 * [Birds singing in Forest](https://www.chosic.com/download-audio/27950/)
 
 
 ### Code
 
-Because I wanted to make a quiz I could not use the walkthrough project "Love Maths" as a start of point. 
-I looked for inspiration online and found a tutorial video (see link below). I adapted the JavaScript code from this video to fit my project. 
+The walkthrough project "Love Maths" was a great way of understanding how to get started on an interactive website and it was thesefor a good source of inspiration. 
+I decided to do a quiz and have researched several different ways on how to write a multiple choice quiz with JavaScript. The tutorial video's that helped me the most are credited below (see links below). I adapted the JavaScript code from these video's to fit my project. 
 I have used some of the css code for inspration from my previous portfolio project "The Atlantic Dippers".
-I have used various resources to help me with this:
+I have used various resources to help me with figuring out how to create the website I wanted:
 
 * [How To Make Quiz App Using JavaScript | YouTube](https://youtu.be/PBcqGxrr9g8?feature=shared)
 * [Build a Quiz App with JavaScript | YouTube](https://youtu.be/riDzcEQbX6k?si=2UDt5POf_5t2RH9x)
-* Code Institute Slack Channel
 * [Stack overflow](https://stackoverflow.com/)
-* [Emmet](https://docs.emmet.io/cheat-sheet/)
 * [W3Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
-* 
+* [DEV / for audio bar](https://dev.to/sh20raj/styling-the-html5-tag-with-css-and-webkit-properties-nf3)
+
+* Code Institute Slack Channel
+
 
 #### Templates I have used for inspiration and creating my readme-file:
 
