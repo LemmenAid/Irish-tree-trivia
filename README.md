@@ -187,6 +187,7 @@ play again or choose a different quiz.
 
 * A page with useful links to other websites that can give informatioon about Ireland's trees. For instance non-profit organisations that do re-foresting projects.
 * A page that gives visitors information on how to succesfully plant and grow trees in their own garden.
+* Combining all the question arrays to one database js file and having only one html file for all the quizzes. This would make it even easier to add more quizzes if one would like.
 
 *** 
 
@@ -231,15 +232,13 @@ The website has been tested by myself and several of my friends for accessibilit
 | Score function | Answer all questions in quiz and get score | After answering all questions, quiz returns total score | PASS |
 | Quiz question numbers | reading all quiz questions | the question numbers are correctly numbered | PASS |
 | Quiz question Images | checking all the images for each question | the image that appears for each question is correct and as intended | PASS |
-| hover answer buttons | checking the hover effect for answer buttons | when hovered over answer options background colour changes to dark grey | PASS |
-| answer buttons | checking feedback answer | after answering quiz show correct answer with green background and incorrect answer with red background | PASS |
-| answer buttons deactivated | checking if you can click on other answer after answering | after answering it should not be possible to change your answer and click on other option | PASS |
-| next button | checking next button after answering questions | after answering the button to go the next question should appear | PASS |
-| play again button | checking play again button end of quiz | after answering all the questions, the play again button should appear | PASS |
-| play other quiz button | checking play other quiz button after answering all questions | after answering all questions the play other quiz button should appear | PASS |
-
-
-
+| Hover answer buttons | checking the hover effect for answer buttons | when hovered over answer options background colour changes to dark grey | PASS |
+| Answer buttons | checking feedback answer | after answering quiz show correct answer with green background and incorrect answer with red background | PASS |
+| Answer buttons deactivated | checking if you can click on other answer after answering | after answering it should not be possible to change your answer and click on other option | PASS |
+| Next button | checking next button after answering questions | after answering the button to go the next question should appear | PASS |
+| Play again button | checking play again button end of quiz | after answering all the questions, the play again button should appear | PASS |
+| Play other quiz button | checking play other quiz button after answering all questions | after answering all questions the play other quiz button should appear | PASS |
+| Audio bar | click on audio bar | audio bar plays bird sounds after clciking play | PASS |
 
 
 
