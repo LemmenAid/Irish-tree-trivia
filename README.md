@@ -411,9 +411,15 @@ QUIZ 3
 * [quiz 3 - 9](https://unsplash.com/photos/concrete-castle-on-cliff-near-body-of-water-during-daytime-OsZJaYdAMw0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
 * [quiz 3 - 10](https://unsplash.com/photos/brown-road-in-forest-during-daytime-L505cPnmIds?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
 
+<br>
 For the background of the website a free image was used to make a pattern:
 
 * [Image used for pattern](https://www.freepik.com/free-vector/alder-plant_4089192.htm#fromView=search&page=2&position=14&uuid=f377759a-0798-4c43-af85-19185ffc28d4/)
+
+<br>
+For the sound a free source was used:
+
+* [Birds singing in Forest](https://www.chosic.com/download-audio/27950/)
 
 
 ### Code
