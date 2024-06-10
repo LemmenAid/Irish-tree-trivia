@@ -223,11 +223,12 @@ header span:hover {
 }
 
 .correct {
-  background: #9cd0b9;
+  background: #62e996;
+
 }
 
 .incorrect {
-  background: #dabc93;
+  background: #e48b65;
 }
 
 
