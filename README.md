@@ -152,7 +152,6 @@ With audio bar:
   * Featured on all pages, the footer section includes the Tree Trivia logo with a link to the home page.
   * The footer section includes links to my (social) media sites. The links will open to a new tab to allow easy navigation for the user. 
 
-
 ![Footer](README-files/footer.png)
 
 
@@ -160,7 +159,8 @@ With audio bar:
 
 #### Main Page
 
-* The landing page starts with a paragraph that gives some information about Ireland's native forests.
+* The main page starts with a paragraph that gives some information about Ireland's native forests.
+* There is a link to an article with more information about the topic.
 * Underneath the information paragraph there are three buttons that lead to the three different quizes. 
 
 ![Main Page](README-files/main-page.png)
@@ -169,11 +169,12 @@ With audio bar:
 
 * The quiz page has the same design and lay-out for all three quizes. It has a container for the multiple choice question, the four answer options and an image. 
 * After the user clicks on an option the quiz will show if the answer was correct or incorrect using background colours. After answering the button to the next question appears.
+* The questions are numbered including the total amount of questions, so the player knows how far along in the quiz they are.
 
-Right Answer:
+Right Answer: <br>
 ![Quiz](README-files/quiz-page.png) 
 
-Wrong Answer:
+Wrong Answer: <br>
 ![Quiz](README-files/quiz-page-wronganswer.png)
 
 #### Score Page
@@ -218,27 +219,27 @@ play again or choose a different quiz.
 
 ## Testing
 
-The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
+The website has been tested by myself and several of my friends and family members for accessibility, functionality, responsiveness, performance and visual appeal.
 
 ### Functionality
 
 | Feature | Testing Performed | Expected Outcome | Pass/Fail |
 | --- | --- | --- | --- |
-| Link Irish Tree Trivia Title header | Click Title | When clicked the user will be redirected to the home page. | PASS |
-| Internal Links | Click on internal links | Internal links redirect to where they should. | PASS |
-| External Links | Click on external links | External links go where they should and open in separate tab. | PASS |
-| Social Media Icons | Click Icons | When clicked the user will be redirected to the appropriate social media pages in a separate tab. | PASS |
-| Quiz function | Choose quiz to play | button to chosen quiz leads to appropriate quiz | PASS |
-| Score function | Answer all questions in quiz and get score | After answering all questions, quiz returns total score | PASS |
-| Quiz question numbers | reading all quiz questions | the question numbers are correctly numbered | PASS |
-| Quiz question Images | checking all the images for each question | the image that appears for each question is correct and as intended | PASS |
-| Hover answer buttons | checking the hover effect for answer buttons | when hovered over answer options background colour changes to dark grey | PASS |
-| Answer buttons | checking feedback answer | after answering quiz show correct answer with green background and incorrect answer with red background | PASS |
-| Answer buttons deactivated | checking if you can click on other answer after answering | after answering it should not be possible to change your answer and click on other option | PASS |
-| Next button | checking next button after answering questions | after answering the button to go the next question should appear | PASS |
-| Play again button | checking play again button end of quiz | after answering all the questions, the play again button should appear | PASS |
-| Play other quiz button | checking play other quiz button after answering all questions | after answering all questions the play other quiz button should appear | PASS |
-| Audio bar | click on audio bar | audio bar plays bird sounds after clciking play | PASS |
+| Link Irish Tree Trivia Title header | click Title | When clicked the user will be redirected to the home page. | PASS |
+| Internal Links | click on internal links | Internal links redirect to where they should. | PASS |
+| External Links | click on external links | External links go where they should and open in separate tab. | PASS |
+| Social Media Icons | click Icons | When clicked the user will be redirected to the appropriate social media pages in a separate tab. | PASS |
+| Quiz function | choose quiz to play | The button to the chosen quiz leads to appropriate quiz. | PASS |
+| Score function | answer all questions in quiz and get score | After answering all questions, quiz returns total score | PASS |
+| Quiz question numbers | reading all quiz questions | The question numbers are correctly numbered. | PASS |
+| Quiz question Images | checking all the images for each question | The image that appears for each question is correct and as intended. | PASS |
+| Hover answer buttons | checking the hover effect for answer buttons |When hovered over answer options background colour changes to dark grey. | PASS |
+| Answer buttons | checking feedback answer | After answering quiz show correct answer with green background and incorrect answer with red background. | PASS |
+| Answer buttons deactivated | checking if you can click on other answer after answering | After answering it should not be possible to change your answer and click on other option. | PASS |
+| Next button | checking next button after answering questions | After answering a question the button to go the next question should appear. | PASS |
+| Play again button | checking play again button end of quiz | After answering all the questions, the play again button should appear. | PASS |
+| Play other quiz button | checking play other quiz button after answering all questions | After answering all questions the play other quiz button should appear. | PASS |
+| Audio bar | click on audio bar | Audio bar plays bird sounds after clicking the play icon in the audio bar. | PASS |
 
 
 
@@ -253,7 +254,7 @@ The website has been tested by myself and several of my friends for accessibilit
 ### Validator Testing
 
 #### HTML
-* The [W3C](https://validator.w3.org/) Markup Validator was used to validate every page of the project to check that there were no syntax errors made in the HTML code.
+* The [W3C](https://validator.w3.org/) Markup Validator was used to validate every HTML page of the project to check that there were no syntax errors made in the HTML code.
 
 * There was one error returned about a bad value for the img src attribute:
 
@@ -274,13 +275,13 @@ The website has been tested by myself and several of my friends for accessibilit
 
 
 #### JavaScript
-* The [JS Hint](https://jshint.com) Validator was used to validate the JavaScript code and after inserting /*jshint esversion 6 */ at the top of the file no errors were returned. It only reported one undefined variable (questions), but this is because the variable is defined in the other js files.
+* The [JS Hint](https://jshint.com) Validator was used to validate the JavaScript code and after inserting /*jshint esversion 6 */ at the top of the file no errors were returned. It only reported one undefined variable (questions), but this is because the variable is defined in seperate js files.
 
 ![alt text](README-files/js-after.png)
 
 ### Lighthouse
 
-After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. Overall I am happy with the outcome. However, the performance of the quiz pages varies as you can see in the three examples below. I have looked into potential solutions for increasing the performance by optimising the LCP. Preloading all images for the ten questions would probably not be an efficient solution, as it could potentially increase the overall load time. A more effective solution could be to only preload the next question while the user is answering the current question.
+After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. Overall I am happy with the outcome. However, the performance of the quiz pages varies as you can see in the three examples below. I have looked into potential solutions for increasing the performance by optimising the LCP. Preloading all images for the ten questions would probably not be an efficient solution, as it could potentially increase the load time. A more effective solution could be to only preload the next question while the user is answering the current question.
 
 #### Main Page
 
@@ -310,7 +311,7 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 * During testing it came up that in different browsers the audio bar looks different. In the Safari browser the audio bar was reduced to just a 'play' button - by increasing the width in css this was resolved and now in all tested browsers the audio bar is visible.
 * changed the url of the "play other quiz button" in the main.js file for portability from full url to only "index.html".
 * During testing I got the feedback that the correct and incorrect background colours were not clear enough, so I made them more vibrant and bright.
-* During testing I got the feedback that it would bbe nice to be able to see how far in the quiz you are. For this I added a question counter at the start of eacht question (question 1/10.)
+* During testing I got the feedback that it would bbe nice to be able to see how far along in the quiz you are. For this I added a question counter at the start of eacht question (question 1/10.)
 
 ***
 
@@ -438,8 +439,8 @@ For the bird sound a free source was used:
 
 ### Code
 
-The walkthrough project "Love Maths" was a great way of understanding how to get started on an interactive website and it was thesefor a good source of inspiration. 
-I decided to do a quiz and have researched several different ways on how to write a multiple choice quiz with JavaScript. The tutorial video's that helped me the most are credited below (see links below). I adapted the JavaScript code from these video's to fit my project. 
+The walkthrough project "Love Maths" was a great way of understanding how to get started on an interactive website and it was therefor a good source of inspiration. 
+I decided to do a quiz and have researched several different ways on how to write a multiple choice quiz with JavaScript. The YouTube video's that helped me the most are credited below (see links below). I adapted the JavaScript code from these video's to fit my project. 
 I have used some of the css code for inspration from my previous portfolio project "The Atlantic Dippers".
 I have used various resources to help me with figuring out how to create the website I wanted:
 
