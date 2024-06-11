@@ -237,7 +237,6 @@ header span:hover {
   align-items: center;
   justify-content: space-between;
   padding: 2.5rem;
-  padding-top: 4rem;
   background-color: #c4dac4f2;
 }
 
@@ -256,9 +255,26 @@ header span:hover {
 .footer-logo span {
   letter-spacing: 2px;
   font-family: "PT Serif", Times, serif;
+  margin-bottom: 5px;
+}
+
+#go-back {
+  color: #b45c0a;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+#go-back:hover {
+  color: #83ae90;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .footer-logo a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
   color: #2e6c51;
   font-size: 1.1rem;
@@ -266,6 +282,7 @@ header span:hover {
 
 .footer-logo a:hover {
   color: #83ae90;
+  text-decoration: underline;
 }
 
 /* Style Footer social media icons */
