@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
   padding: 0;
@@ -26,7 +25,6 @@ body {
 }
 
 /* Header */
-
 header {
   display: flex;
   flex-direction: column;
@@ -58,8 +56,7 @@ header span:hover {
   color: #83ae90;
 }
 
-
-
+/* Audio bar in Header styling */
 #myAudio::-webkit-media-controls-panel {
   background-color: #518b71cd;
 }
@@ -82,6 +79,7 @@ header span:hover {
 
 }
 
+/* Styles for main page */
 .home-page {
   background-color: #82ad90f2;
   width: 85%;
@@ -136,7 +134,7 @@ header span:hover {
   font-weight: 600;
 }
 
-/* Styles for quiz area */
+/* Styles for quiz page */
 .quiz-page {
   background: #82ad90f2;
   width: 90%;
@@ -202,7 +200,7 @@ header span:hover {
   color: #fff;
 }
 
-/* Change cursor to red for after answering a question */
+/* Change cursor for after answering a question */
 .btn:disabled {
   cursor: no-drop;
 }
@@ -232,7 +230,7 @@ header span:hover {
 }
 
 
-/* Footer styles taken from my previous PP1 Atlantic Dippers*/
+/* Footer styles */
 .footer {
   display: flex;
   flex-direction: column;
@@ -311,5 +309,4 @@ header span:hover {
     object-fit: cover;
     object-position: bottom;
   }
-
 }
