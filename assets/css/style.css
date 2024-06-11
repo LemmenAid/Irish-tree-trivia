@@ -119,6 +119,7 @@ header span:hover {
 
 .intro-text {
   letter-spacing: 1px;
+  line-height: 1.45;
   padding: 20px 15px;
   align-self: flex-start;
 }
