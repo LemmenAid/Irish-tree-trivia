@@ -17,7 +17,7 @@ The site is targeted towards people who live in Ireland and are either intereste
 
 ## Project Purpose
 
-By creating a fun way for people to learn about the forests of Ireland this website hopes to help bring more awareness to Ireland's native forests and the state they are in. Despite its green image, Ireland has very little forest: just 11% (and only 2% if you purely look at native forest). However, thousands of years ago, more than 80% of Ireland was covered in trees. Over many centuries they were then almost entirely chopped down, mostly for agricultural purposes. Nowadays people believe that the green hills of Ireland are "natural", but as a matter of fact, they are man made and have created a poor enviroment for biodivesity. 
+By creating a fun way for people to learn about the forests of Ireland this website hopes to help bring more awareness to Ireland's native forests and the state they are in. Despite its green image, Ireland has very little forest: just 11% (and only 2% if you purely look at native forest). However, thousands of years ago, more than 80% of Ireland was covered in trees. Over many centuries they were then almost entirely chopped down. Nowadays many people believe that the green hills of Ireland are "natural", but as a matter of fact, they are man made and have created a poor enviroment for biodivesity. 
 
 ***
 
@@ -39,10 +39,10 @@ By creating a fun way for people to learn about the forests of Ireland this webs
 ### User Stories
 
 1. As a first time user, I want to easily understand the main purpose of the site. 
-2. As a new user, I want to easily navigate the site, so I can find what I need efficiently. 
+2. As a new user, I want to easily navigate the site, and be just one click away from playing the quizzes. 
 3. As an interested user I want to be able to learn a bit about Ireland's forests.
-4. As an interested user I want to be able to play the three quizes. 
-5. As a returning user, I want to easily play the quiz again.
+4. As a returning user I want to be able to play the three quizzes as many times as I like. 
+5. As a user I want to always be able to navigate back to the home page.
 
 ***
 
@@ -52,14 +52,14 @@ By creating a fun way for people to learn about the forests of Ireland this webs
 
 ![alt text](README-files/colour-palette.png)
 
-* The colour scheme is inspired by the colour of a lush green forest. The green colour is used in different shades for the main background of the quiz, header and footer. The rest of the colours are kept in neutral whites and dark grays to maintain a sereen feeling.
+* The colour scheme is inspired by the colour of a lush green forest. The green colour is used in various shades for the main background of the quiz, header, footer, hover effects and buttons. The rest of the colours are kept in neutral whites and dark grays to maintain a sereen feeling.
 * The shades of the colours are all chosen with good readability and accessibility in mind.
 * The design was made to be aesthetically pleasing, to give users a positive and attractive feeling towards the subject - Irish trees. 
 
 ### Typography
 
 * The typography used throughout the site is PT Serif for headings, and Helvetica for paragraphs. 
- PT Serif is imported from google fonts. PT Serif was chosen because for it’s readability in various sizes and to suit the botanical design of the website. As a fallback font Times and serif is used. The fallback font for Helvetica is sans-serif. The letter spacing has been increased slightly to improve readability in the paragraphs. For the headings letter spacing has also been applied, as well as a heavier font weight to make them stand out more. 
+ PT Serif is imported from google fonts. PT Serif was chosen for it’s readability in various sizes and to suit the botanical design of the website. As a fallback font Times and serif is used. The fallback font used for Helvetica is sans-serif. The letter spacing and line-height has been increased slightly to improve readability in the paragraphs. For the headings letter spacing has also been applied, as well as a heavier font weight to make them stand out more. 
 
 The following code has been imported into the top of the style.css
 
@@ -69,7 +69,7 @@ The following code has been imported into the top of the style.css
 
 ### Call to Action
 
-* The call to action buttons on the landing page lead to the three different quizes. At the end of each quiz there is a call to action button to replay the game.
+* The call to action buttons on the landing page lead to the three different quizes. At the end of each quiz there is a call to action button to replay the game and a button to play another game.
 * All the buttons on the website are styled with a colour change so that it is clear for any visitor that these are buttons.
 * The social media links will send the visitor to the social media pages. The links will open in a new tab.
 * The header and footer logo have a colour change hover effect to make it clear that they are links.
@@ -78,7 +78,7 @@ The following code has been imported into the top of the style.css
 
 Images used in the different quizes were selected for their aesthetic appeal and informative use.
 
-Several free image sources were used:
+Several free image sources were used. The links to these sources are listed here:
 
 QUIZ 1
 * [quiz 1 - 1](https://unsplash.com/photos/green-grass-field-under-cloudy-sky-during-daytime-gJQLVTyQfgQ?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
@@ -150,7 +150,7 @@ With audio bar:
 #### The Footer
 
   * Featured on all pages, the footer section includes the Tree Trivia logo with a link to the home page.
-  * The footer section includes links to the relevant social media sites for Tree trivia. The links will open to a new tab to allow easy navigation for the user. 
+  * The footer section includes links to my (social) media sites. The links will open to a new tab to allow easy navigation for the user. 
 
 
 ![Footer](README-files/footer.png)
