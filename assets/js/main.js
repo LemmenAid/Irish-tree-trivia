@@ -107,13 +107,13 @@ function showScore() {
     } else if (score === 2) {
         message = "Sad Sapling! You scored 2 out of 10.";
     } else if (score === 3) {
-        message = "You're branching out.. You scored 3 out of 10!";
+        message = "Tricky Sticky.. You scored 3 out of 10!";
     } else if (score === 4) {
         message = "Forest factual, you scored 4 out of 10!";
     } else if (score === 5) {
-        message = "Leafy Lore, you scored 5 out of 10!";
+        message = "Canopy Cute, you scored 5 out of 10!";
     } else if (score === 6) {
-        message = "Canopy Cute, You scored 6 out of 10!";
+        message = "Leafy Galore, You scored 6 out of 10!";
     } else if (score === 7) {
         message = "Top of the Trees! You scored 7 out of 10.";
     } else if (score === 8) {
@@ -121,7 +121,7 @@ function showScore() {
     } else if (score === 9) {
         message = "Timber talent! You scored 9 out of 10.";
     } else if (score === 10) {
-        message = "Woodland Wisdom! You scored 10 out of 10.";
+        message = "You've achieved Woodland Wisdom! You scored 10 out of 10.";
     }
     questionElement.innerHTML = message;
     nextButton.innerHTML = "Play again";
